@@ -2,6 +2,9 @@ import { useState } from 'react'
 
 
 import imgRobo from '../assets/roboImg.svg'
+import IconX from '../assets/iconsRedes/xIconPreto.svg'
+import IconInsta from '../assets/iconsRedes/instaIconPreto.svg'
+import IconFace from '../assets/iconsRedes/faceIconPreto.svg'
 
 function Home() {
     const [count, setCount] = useState(0)
@@ -18,13 +21,13 @@ function Home() {
                 </button>
                 <div>
                     <button>
-                        <img src="" alt="" />
+                        <img src={IconX} alt="Icone da rede social X" />
                     </button>
                     <button>
-                        <img src="" alt="" />
+                        <img src={IconInsta} alt="Icone da rede social Instagram" />
                     </button>
                     <button>
-                        <img src="" alt="" />
+                        <img src={IconFace} alt="Icone da rede social Facebook" />
                     </button>
                 </div>
             </div>
