@@ -4,14 +4,14 @@ import logoSite from '../assets/logoSite.svg'
 
 function Nav() {
   return (
-    <header className="bg-white shadow-lg" >
+    <header className="bg-white " >
         <div className= "max-w-8xl mx-auto px-4"> 
         <div className="flex justify-between items-center" >   
-        <img src={logoSite} alt="Logo do site escrito Robô Kids" className="h-8 w-auto mt-7" />
+        <img src={logoSite} alt="Logo do site escrito Robô Kids" className="h-8 w-auto mt-7 " />
         </div>
      
-            <ul>
-                <li>
+            <ul className= "flex space-x-7" >
+                <li className="text-gray-700 hover-text-purple"  >
                     <a href="">Home</a></li>
                 <li>
                     <a href="">Nosso Produto</a>
