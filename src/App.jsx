@@ -1,13 +1,26 @@
-import { useState } from 'react'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Nossoproduto from './pages/Nossoproduto'
+import Materiais from './pages/Materiais'
+import Bibliografias from './pages/Bibliografias'
+import Quemsomos from './pages/Quemsomos'
 
 
-function App() {
-  const [count, setCount] = useState(0)
+
+function  App() {
+  
 
   return (
-   <div> 
-    <h1></h1>
-   </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/produto' element={<Nossoproduto/>}/>
+        <Route path='/materiais' element={<Materiais/>}/>
+        <Route path='/bibliografias' element={<Bibliografias/>}/>
+        <Route path='/quemsomos' element={<Quemsomos/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

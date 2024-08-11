@@ -1,5 +1,8 @@
 import React from 'react'
 
+import imgRoboMateriais from '../assets/iconsRedes/robo_materiais.svg'
+import imgCirculoMateriais from '../assets/iconsRedes/circulo_materiais.svg'
+
 export default function Materiais() {
   return (
     <main>
@@ -12,7 +15,8 @@ export default function Materiais() {
         <section>
             <div>
                 <h2 className='subtópicos'>Utilização</h2>
-                <img src="" alt="" />
+                <img src={imgRoboMateriais} alt="Robô da página de materiais" />
+                <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" />
             </div>
         </section>
 
