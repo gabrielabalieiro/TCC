@@ -8,9 +8,9 @@ import IconFace from '../assets/iconsRedes/faceIconAzul.svg'
 
 function Footer() {
   return (
-    <footer>
-        <div>
-            <img src={logo} alt="Logo do site escrito Robô Kids" />
+    <footer className="bg-purple-700 py-8">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <img src={logo} alt="Logo do site escrito Robô Kids" className="h-12" />
             <hr />
             <a href="">
                 <img src={IconEmail} alt="Icone do Email" />
