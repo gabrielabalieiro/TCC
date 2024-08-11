@@ -4,11 +4,12 @@ import logoSite from '../assets/logoSite.svg'
 
 function Nav() {
   return (
-    <header>
-        <img src={logoSite} alt="Logo do site escrito Robô Kids" />
-
-        <div>
-
+    <header className="bg-white shadow-lg" >
+        <div className= "max-w-8xl mx-auto px-4"> 
+        <div className="flex justify-between items-center" >   
+        <img src={logoSite} alt="Logo do site escrito Robô Kids" className="h-8 w-auto mt-7" />
+        </div>
+     
             <ul>
                 <li>
                     <a href="">Home</a></li>
