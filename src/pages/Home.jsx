@@ -20,9 +20,10 @@ function Home() {
                 <button className="font-topico px-6 py-3 bg-purple text-white rounded-lg transition ease-in-out delay-150 bg-purple hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-100 ...mb-8">
                     <a href="/produto">Veja mais</a>
                 </button>
-                <div className="flex justify-center space-x-4">
+                <div className="flex mt-16 space-x-4">
                     <button>
-                        <img src={IconX} alt="Icone da rede social X" className="w-6 h-6"/>                    </button>
+                        <img src={IconX} alt="Icone da rede social X" className="w-6 h-6"/>                   
+                    </button>
                     <button>
                         <img src={IconInsta} alt="Icone da rede social Instagram" className="w-6 h-6" />
                     </button>
