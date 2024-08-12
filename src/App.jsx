@@ -14,13 +14,13 @@ function  App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/produto' element={<Nossoproduto/>}/>
-        <Route path='/materiais' element={<Materiais/>}/>
-        <Route path='/bibliografias' element={<Bibliografias/>}/>
-        <Route path='/quemsomos' element={<Quemsomos/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/produto' element={<Nossoproduto/>}/>
+      <Route path='/materiais' element={<Materiais/>}/>
+      <Route path='/bibliografias' element={<Bibliografias/>}/>
+      <Route path='/quemsomos' element={<Quemsomos/>}/>
       </Routes>
-    </BrowserRouter>
+</BrowserRouter>
   )
 }
 

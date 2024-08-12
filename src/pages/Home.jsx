@@ -3,6 +3,7 @@ import IconX from '../assets/iconsRedes/xIconPreto.svg'
 import IconInsta from '../assets/iconsRedes/instaIconPreto.svg'
 import IconFace from '../assets/iconsRedes/faceIconPreto.svg'
 
+
 import { Link } from 'react-router-dom'
 
 function Home() {
