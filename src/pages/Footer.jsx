@@ -10,19 +10,20 @@ function Footer() {
   return (
     <footer className="bg-purple-700 py-8">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-            <img src={logo} alt="Logo do site escrito Robô Kids" className="h-12" />
-            <hr />
+            <div className="mb-4 md:mb-0">
+            <img src={logo} alt="Logo do site escrito Robô Kids" className="h-6 w-6" />
+            </div>
             <a href="">
-                <img src={IconEmail} alt="Icone do Email" />
+                <img src={IconEmail} alt="Icone do Email" className="h-6 w-6" />
             </a>
             <a href="">
-                <img src={IconInsta} alt="Icone do Instagram" />
+                <img src={IconInsta} alt="Icone do Instagram" className="h-6 w-6" />
             </a>
             <a href="">
-                <img src={IconX} alt="Icone do X" />
+                <img src={IconX} alt="Icone do X" className="h-6 w-6" />
             </a>
             <a href="">
-                <img src={IconFace} alt="Icone do Facebook" />
+                <img src={IconFace} alt="Icone do Facebook" className="h6 w-6" />
             </a>
 
         </div>

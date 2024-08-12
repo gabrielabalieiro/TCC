@@ -5,7 +5,9 @@ export default function Bibliografias() {
     <main>
         <section>
             <div>
-                <h1>Bibliografias</h1>
+                <h1>
+                <div class="text-[#5c6898] text-[64px] font-normal font-['RocknRoll One']">Bibliografias</div>
+                </h1>
                 <p>A ciência tem mostrado o quão é importante a utilização de meios que modifiquem o ensino e a aprendizagem através do uso da tecnologia, instiguem e criem situações provocantes, possam cativar a atenção das crianças, tornando o processo de aprendizagem mais envolvente e interessante partindo desse princípio, surgiu a ideia do protótipo do Robô Kids.
 
                 A tecnologia é um meio de aprendizagem inovador e eficaz, na qual a criança,  além se de se divertir, está aprendendo e progredindo os seus conhecimentos.
