@@ -18,8 +18,8 @@ export default function Materiais() {
         <section>
             <div>
                 <h2 className="text-justify text-purple text-3xl font-normal font-titulo">Utilização</h2>
-                <img src={imgRoboMateriais} alt="Robô da página de materiais"/>
-                <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" />
+                <img src={imgRoboMateriais} alt="Robô da página de materiais" className="w-428 h-512 mx-auto"/>
+                <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" className=' mx-auto' />
             </div>
             
         </section>

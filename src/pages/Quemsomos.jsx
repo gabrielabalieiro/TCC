@@ -10,15 +10,18 @@ import fotoThigas from '../assets/fotosProgam/fotoThigasCentro.svg'
 export default function Quemsomos() {
   return (
     <main>
-      <h1 className='text-purple text-4xl font-semibold font-titulo'>Desenvolvedores</h1>
-      <div>
+      <h1 className='text-4xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14'>Desenvolvedores</h1>
+      <div className='flex py-8'>
         <div>
           <img src={fotoLee} alt="Leticia foto" />
           <p className='text-purple text-xl font-bold font-paragrafo'>Leticia Lopes</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
           <div className='flex '>
             <img src={IconInsta} alt="Icone do instagram" />
-            <p className='text-purple font-light font-paragrafo ml-1.5'>lee.lopesz</p>
+            <button className='text-purple font-light font-paragrafo ml-1.5'>
+              <a href="https://www.instagram.com/lee.lopesz/">lee.lopesz</a>
+            </button>
+            
           </div>
         </div>
         <div>
@@ -27,7 +30,10 @@ export default function Quemsomos() {
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
           <div className='flex'>
             <img src={IconInsta} alt="Icone do instagram" />
-            <p className='text-purple font-light font-paragrafo ml-1.5'>gabzbali</p>
+            <button className='text-purple font-light font-paragrafo ml-1.5'>
+              <a href="https://www.instagram.com/gabzbali/">gabzbali</a>
+            </button>
+            
           </div>
         </div>
         <div>
@@ -36,7 +42,9 @@ export default function Quemsomos() {
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
           <div className='flex'>
             <img src={IconInsta} alt="Icone do instagram" />
-            <p className='text-purple font-light font-paragrafo ml-1.5'>biiah_gsouza</p>
+            <button className='text-purple font-light font-paragrafo ml-1.5'>
+              <a href="https://www.instagram.com/biiah_gsouza/">biiah_gsouza</a>
+            </button>
           </div>
         </div>
         <div>
@@ -45,7 +53,9 @@ export default function Quemsomos() {
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
           <div className='flex'>
             <img src={IconInsta} alt="Icone do instagram" />
-            <p className='text-purple font-light font-paragrafo ml-1.5'>thii.lima_</p>
+            <button className='text-purple font-light font-paragrafo ml-1.5'>
+              <a href="https://www.instagram.com/thii.lima_/">thii.lima_</a>
+            </button>
           </div>
         </div>
       </div>

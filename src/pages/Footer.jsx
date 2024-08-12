@@ -33,7 +33,7 @@ function Footer() {
 
         <div className='flex gap-16 '>
             <div className='mt-8'> 
-                <button className='font-paragrafo font-bold text-light-blue text-2xl'>
+                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <a href="/produto">Produto</a>
                 </button>
             
@@ -45,7 +45,7 @@ function Footer() {
             
             </div>
             <div className='mt-8'> 
-                <button className='font-paragrafo font-bold text-light-blue text-2xl'>
+                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <a href="/materiais">Materiais</a>
                 </button>
             
@@ -57,7 +57,7 @@ function Footer() {
             
             </div>
             <div className='mt-8'>
-                <button className='font-paragrafo font-bold text-light-blue text-2xl'>
+                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <a href="/bibliografias">Bibliografia</a>
                 </button>
             
@@ -68,7 +68,7 @@ function Footer() {
             
             </div>
             <div className='mt-8 mr-16'>
-                <button className='font-paragrafo font-bold text-light-blue text-2xl'>
+                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <a href="/quemsomos">Somos?</a>
                 </button>
             

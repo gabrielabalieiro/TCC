@@ -26,9 +26,7 @@ function Nav() {
                 <li className="text-black-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold">
                     <a href="/quemsomos">Quem somos?</a>
                 </li>
-                <li className="text-black-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold">
-                    <a href="#">Contato</a>
-                </li>
+               
                 <li className="text-violet-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold border-solid border-2 border-indigo-500 rounded px-5">
                     <button>
                         <a href="#">Login</a>
