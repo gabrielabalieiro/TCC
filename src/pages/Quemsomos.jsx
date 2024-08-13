@@ -12,7 +12,7 @@ export default function Quemsomos() {
     <main>
       <h1 className='text-5xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14'>Desenvolvedores</h1>
       <div className='flex py-8'>
-        <div>
+        <div className='border-2 border-purple rounded-[10px]'>
           <img src={fotoLee} alt="Leticia foto" />
           <p className='text-purple text-xl font-bold font-paragrafo'>Leticia Lopes</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
@@ -24,7 +24,7 @@ export default function Quemsomos() {
             
           </div>
         </div>
-        <div>
+        <div className='border-2 border-purple rounded-[10px]'>
           <img src={fotoGabs} alt="Gabriela foto" />
           <p className='text-purple text-xl font-bold font-paragrafo'>Gabriela Balieiro</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
@@ -36,7 +36,7 @@ export default function Quemsomos() {
             
           </div>
         </div>
-        <div>
+        <div className='border-2 border-purple rounded-[10px]'>
           <img src={fotoBia} alt="Beatriz foto" />
           <p className='text-purple text-xl font-bold font-paragrafo'>Beatriz Gonçalves</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
@@ -47,7 +47,7 @@ export default function Quemsomos() {
             </button>
           </div>
         </div>
-        <div>
+        <div className='border-2 border-purple rounded-[10px]'>
           <img src={fotoThigas} alt="Thiago foto" />
           <p className='text-purple text-xl font-bold font-paragrafo '>Thiago Pinheiro</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
