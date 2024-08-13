@@ -16,16 +16,16 @@ function Footer() {
             <div className='w-[223px] border border-white'></div>
             <div className='flex items-center gap-5 mt-5'>
                 <a href="">
-                    <img src={IconEmail} alt="Icone do Email" />
+                    <img src={IconEmail} alt="Icone do Email" className='transition-transform duration-200 ease-in-out transform hover:scale-110'/>
                 </a>
                 <a href="">
-                    <img src={IconInsta} alt="Icone do Instagram" />
+                    <img src={IconInsta} alt="Icone do Instagram" className='transition-transform duration-200 ease-in-out transform hover:scale-110'/>
                 </a>
                 <a href="">
-                    <img src={IconX} alt="Icone do X" />
+                    <img src={IconX} alt="Icone do X" className='transition-transform duration-200 ease-in-out transform hover:scale-110'/>
                 </a>
                 <a href="">
-                    <img src={IconFace} alt="Icone do Facebook" />
+                    <img src={IconFace} alt="Icone do Facebook" className='transition-transform duration-200 ease-in-out transform hover:scale-110'/>
                 </a>
             </div>
 

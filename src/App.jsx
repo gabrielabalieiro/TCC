@@ -5,6 +5,9 @@ import Nossoproduto from './pages/Nossoproduto'
 import Materiais from './pages/Materiais'
 import Bibliografias from './pages/Bibliografias'
 import Quemsomos from './pages/Quemsomos'
+import Footer from './pages/Footer'
+import SingUp from './pages/Singup'
+import Login from  './pages/Login'
 
 
 
@@ -19,6 +22,8 @@ function  App() {
       <Route path='/materiais' element={<Materiais/>}/>
       <Route path='/bibliografias' element={<Bibliografias/>}/>
       <Route path='/quemsomos' element={<Quemsomos/>}/>
+      <Route path='/singup' element={<SingUp/>}/>
+      <Route path='/login' element={<Login/>}/>
       </Routes>
 </BrowserRouter>
   )

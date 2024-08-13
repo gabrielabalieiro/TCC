@@ -22,27 +22,35 @@ export default function Nav(){
                         <a href="/" >Home</a>
                     </button>
                 </li>
-                <li className="text-black-500 hover:text-purple no-underline hover:underline font-normal hover:font-semibold">
-                    <a href="/produto">Produto</a>
+                <li className={napagina==true? 'text-purple font-bold underline decoration-purple':'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
+                    <button onClick={handleNapagina}>
+                        <a href="/produto">Produto</a>
+                    </button>
                 </li>
-                <li className=" text-black-500 hover:text-purple no-underline hover:underline decoration-purple font-normal hover:font-semibold">
-                    <a href="/materiais">Materiais</a>
+                <li className={napagina==true? 'text-purple font-bold underline decoration-purple':'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
+                    <button onClick={handleNapagina}>
+                        <a href="/materiais">Materiais</a>
+                    </button>
                 </li >
-                <li className="text-black-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold">
-                    <a href="/bibliografias">Bibliografias</a>
+                <li className={napagina==true? 'text-purple font-bold underline decoration-purple':'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
+                    <button onClick={handleNapagina}>
+                        <a href="/bibliografias">Bibliografias</a>
+                    </button>
                 </li>
-                <li className="text-black-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold">
-                    <a href="/quemsomos">Quem somos?</a>
+                <li className={napagina==true? 'text-purple font-bold underline decoration-purple':'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
+                    <button onClick={handleNapagina}>
+                        <a href="/quemsomos">Quem somos?</a>
+                    </button>
                 </li>
-               
+
                 <li className="text-violet-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold border-solid border-2 border-indigo-500 rounded px-5">
                     <button>
-                        <a href="#">Login</a>
+                        <a href="/login">Login</a>
                     </button>
                 </li>
                 <li className="text-white no-underline hover:underline  decoration-purple font-normal hover:font-semibold bg-purple border-solid border-indigo-500 rounded px-5 ">
                     <button>
-                        <a href="#">Sing Up</a>
+                        <a href="/singup">Sing Up</a>
                     </button>
                 </li>
             </ul>
