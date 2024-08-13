@@ -16,7 +16,7 @@ function Home() {
              
 
             <div>
-                <h1 className= "text-6xl font-semibold text-purple mb-1.5 text-[64px] font-normal font-titulo">Robô Kids</h1>
+                <h1 className= "text-6xl font-semibold text-purple mb-1.5 text-[64px] font-normal font-titulo no-underline decoration-sky-600 hover:decoration-blue-400">Robô Kids</h1>
                 <p className=" w-[565px] text-justify text-black text-xl  py-6 font-normal font-paragrafo">Trata-se de um produto  destinado a ajudar crianças em sua jornada de aprendizado, com ênfase na disciplina de matemática. Por meio da integração da tecnologia, as crianças podem se divertir enquanto aprendem, ao passo que os pais têm a oportunidade de monitorar o progresso de seus filhos.</p>
                 <button className="font-topico px-6 py-3 bg-purple text-white rounded-lg border border-transparent transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple ...mb-8">
                     <a href="/produto">Veja mais</a>

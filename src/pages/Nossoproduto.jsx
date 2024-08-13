@@ -102,7 +102,7 @@ export default function Nossoproduto() {
                             <div class="left-[30px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Primeira Fase</div>
                         </div>
 
-                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-70">
+                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-50">
                             <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
                             <img class="w-[88px] h-[85px] left-[56px] top-[42px] absolute" src={lupaRoxa} />
                             <div class="left-[29px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Segunda Fase</div>
