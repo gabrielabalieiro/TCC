@@ -38,7 +38,7 @@ export default function Materiais() {
             </div>
             <div class="w-[272px] h-[352px] relative rounded-[10px] border-2 border-[#5c6898]">
                 <div class="w-[228px] left-[22px] top-[239px] absolute text-center text-black text-lg font-normal font-['Halant']">Execulta movimentos progamados</div>
-                <div class="left-[93px] top-[201px] absolute text-justify text-[#5c6898] text-2xl font-semibold font-['Halant']"> Mortor</div>
+                <div class="left-[93px] top-[201px] absolute text-justify text-[#5c6898] text-2xl font-semibold font-['Halant']"> Motor</div>
                 <div class="w-[222px] left-[23px] top-[301px] absolute text-center text-[#5b5a5a] text-lg font-medium font-['Halant']">R$ 12,00 </div>
                 <img class="w-[201px] h-[153px] left-[35px] top-[23px] absolute" src={imgMotor} />
             </div>
