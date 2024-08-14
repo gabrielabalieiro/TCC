@@ -22,27 +22,31 @@ export default function Bibliografias() {
             </div>
            
            <div className='flex justify-center px-44 mb-8 gap-4'>
-              <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
-                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+              <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center ">
+                <a href="https://sol.sbc.org.br/index.php/ctrle/article/view/25805" target="_blank" rel=" noopener noreferrer">
+                <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
+                </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 1</p>
                 <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>
-
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
-                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+              <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cadernosuninter.com%2Findex.php%2Fintersaberes%2Farticle%2Fview%2F2962%2F2146&psig=AOvVaw3keRduVTb3qC1OISksDNct&ust=1723739952377000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwiY2fbt9fSHAxUAAAAAHQAAAAAQBA" target="_blank" rel=" noopener noreferrer">
+                <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
+                </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 2</p>
                 <p className="text-center text-black text-base text-justify font-paragrafo px-6">A robótica como facilitadora do processo ensino-aprendizagem de matemática no ensino fundamental</p>
               </div>
-
-
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
-                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+              <a href="https://escolaweb.educacao.al.gov.br/odas/o-uso-da-robotica-educacional-no-ensino-fundamental-um-estudo-de-caso-preliminar-47033" target="_blank" rel=" noopener noreferrer">
+                <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
+                </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 3</p>
                 <p className="text-center text-black text-base text-justify font-paragrafo px-6">O Uso da Robótica Educacional no Ensino Fundamenntal: Um estudo de caso prelimiar</p>
               </div>
-
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
-                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+              <a href="https://virtualtechdicas.com.br/robotica-na-educacao-infantil-educacao-tecnologica-para-criancas/" target="_blank" rel=" noopener noreferrer">
+                <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
+                </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 4</p>
                 <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>

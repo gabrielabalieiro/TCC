@@ -27,7 +27,7 @@ export default function Materiais() {
         </div>
 
         <div className='flex justify-center px-44 mb-44 gap-14 '>
-            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center">
+            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center ">
                 <img className="w-50 h-38 mb-4" src={imgSensor} alt="Sensor" />
                 <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Sensor</div>
                 <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Captar movimento</div>
@@ -75,7 +75,7 @@ export default function Materiais() {
                     <hr className='w-[816px] border-purple' />
                 </div>
 
-                <div className='translate-y-28'>
+                <div className='translate-y-28 transform transition ease-in-out duration-1000 hover:translate-y-10'>
                     <p className='font-paragrafo text-right pr-80 translate-y-16 '>Display LCD Led</p>
                         <img src={imgSetaL} alt="" className='mx-auto translate-y-11 pl-72' />
                     <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" className=' absolute left-24 right-24  w-64 h-512 mx-auto' />
