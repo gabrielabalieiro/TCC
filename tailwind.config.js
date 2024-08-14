@@ -13,6 +13,7 @@ module.exports = {
       'purple': '#5C6898',
       'black': '#000000',
       'white': '#ffffff',
+      'gray' : '#5b5a5a',
       'light-blue': '#A9DFE2',
       'grey': '#D9D9D9',
       'light-grey': 'rgba(120, 120, 120, 0.29)',

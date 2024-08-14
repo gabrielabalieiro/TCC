@@ -10,6 +10,9 @@ import imgMotor from '../assets/iconsRedes/motor.svg'
 import imgArduino from '../assets/iconsRedes/arduino.svg'
 import imgSetaD from '../assets/iconsRedes/seta_carroselD.svg'
 import imgSetaE from '../assets/iconsRedes/seta_carroselE.svg'
+import imgSetaL from '../assets/iconsRedes/setalcd.svg'
+import imgBols from '../assets/iconsRedes/bols_material.svg'
+import imgBols2 from '../assets/iconsRedes/bols_branca.svg'
 
 export default function Materiais() {
   return (
@@ -19,43 +22,64 @@ export default function Materiais() {
                 <h1 className="text-5xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14">Materiais</h1>
         </div>
         <div>
-            <img src={imgSetaD} alt="" className='absolute right-0 top-1/2 transform -translate-y-1/2'/>
-            <img src={imgSetaE} alt="" />
+            <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
+            <img src={imgSetaE} alt="" className='absolute left-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
         </div>
-            <div className='flex justify-center px-44 mb-8 gap-14 '>
-            <div class="w-[272px] h-[352px] relative rounded-[10px] border-2 border-[#5c6898]">
-                <img class="w-[201px] h-[153px] left-[35.50px] top-[42px] absolute" src={imgSensor} />
-                <div class="w-[222px] left-[25px] top-[202px] absolute text-center text-[#5c6898] text-2xl font-semibold font-['Halant']">Sensor</div>
-                <div class="w-[222px] left-[25px] top-[247px] absolute text-center text-black text-lg font-normal font-['Halant']">Captar movimento</div>
-                <div class="w-[222px] left-[25px] top-[282px] absolute text-center text-[#5b5a5a] text-lg font-medium font-['Halant']">R$ 11,00 </div>
-                <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
+
+        <div className='flex justify-center px-44 mb-44 gap-14 '>
+            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center">
+                <img className="w-50 h-38 mb-4" src={imgSensor} alt="Sensor" />
+                <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Sensor</div>
+                <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Captar movimento</div>
+                <div className="w-56 text-center text-gray text-lg font-paragrafo translate-y-8">R$ 11,00</div>
+                <div className="w-30 h-30 bg-gray-300 mt-4"></div>
             </div>
-            <div class="w-[271px] h-[352px] relative rounded-[10px] border-2 border-[#5c6898]">
-                <div class="w-[238px] left-[17px] top-[240px] absolute text-center text-black text-lg font-normal font-['Halant']">desenvolvimento de projetos eletrônicos</div>
-                <div class="left-[92px] top-[202px] absolute text-justify text-[#5c6898] text-2xl font-semibold font-['Halant']">Arduino</div>
-                <div class="w-[222px] left-[25px] top-[301px] absolute text-center text-[#5b5a5a] text-lg font-medium font-['Halant']">R$ 48,00 </div>
-                <img class="w-[201px] h-[153px] left-[35px] top-[23px] absolute" src={imgArduino} />
+
+            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center">
+                <img className="w-50 h-38 mb-4" src={imgArduino} alt="Arduino" />
+                <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Arduino</div>
+                <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Desenvolvimento de projetos eletrônicos</div>
+                <div className="w-56 text-center text-gray text-lg font-paragrafo">R$ 48,00</div>
+                <div className="w-30 h-30 bg-gray-300 mt-4"></div>
             </div>
-            <div class="w-[272px] h-[352px] relative rounded-[10px] border-2 border-[#5c6898]">
-                <div class="w-[228px] left-[22px] top-[239px] absolute text-center text-black text-lg font-normal font-['Halant']">Execulta movimentos progamados</div>
-                <div class="left-[93px] top-[201px] absolute text-justify text-[#5c6898] text-2xl font-semibold font-['Halant']"> Motor</div>
-                <div class="w-[222px] left-[23px] top-[301px] absolute text-center text-[#5b5a5a] text-lg font-medium font-['Halant']">R$ 12,00 </div>
-                <img class="w-[201px] h-[153px] left-[35px] top-[23px] absolute" src={imgMotor} />
+
+            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center">
+                <img className="w-50 h-38 mb-4" src={imgMotor} alt="Motor" />
+                <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Motor</div>
+                <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Execulta movimentos progamados</div>
+                <div className="w-56 text-center text-gray text-lg font-paragrafo">R$ 12,00</div>
+                <div className="w-30 h-30 bg-gray-300 mt-4"></div>
             </div>
+
         </div>
+        
+            <div className='mb-24 flex justify-center gap-3 -translate-y-12'>
+                <img src={imgBols} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+                <img src={imgBols2} alt="" className='hover:scale-110 '/>
+
+            </div>
 
         </section>
 
         <section>
-            <div className='mb-4'>
+            <div className='mb-56 '>
                 <div className='flex items-center'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Utilização</h2>
-                    <hr className='w-[1000px] border-purple' />
+                    <hr className='w-[816px] border-purple' />
                 </div>
 
-                <div>
-                    <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" className=' mx-auto' />
-                    <img src={imgRoboMateriais} alt="Robô da página de materiais" className="w-428 h-512 mx-auto"/>
+                <div className='translate-y-28'>
+                    <p className='font-paragrafo text-right pr-80 translate-y-16 '>Display LCD Led</p>
+                        <img src={imgSetaL} alt="" className='mx-auto translate-y-11 pl-72' />
+                    <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" className=' absolute left-24 right-24  w-64 h-512 mx-auto' />
+                    <img src={imgRoboMateriais} alt="Robô da página de materiais" className="w-428 h-512 mx-auto "/>
                 </div>
                 
             </div>
@@ -66,12 +90,13 @@ export default function Materiais() {
             <div>
                 <div className='flex items-center'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Valor final</h2>
-                    <hr className='w-[1000px] border-purple' />
+                    <hr className='w-[816px] border-purple' />
                 </div>
                 <p className='text-justify font-paragrafo px-44 py-6 mb-6'>O nosso projeto, além de ter um alto custo inicial, demanda um grande esforço de trabalho, por isso projetamos um valor inicial de 1.500,00 R$, levando em consideração todo o custo e desenvolvimento. Além disso, o projeto é altamente tecnológico e apresenta um diferencial significativo, incluindo um aplicativo que permite aos pais acompanhar a evolução da criança e um jogo divertido para a própria criança. Tudo isso é integrado com o robô, proporcionando um suporte completo ao cliente.
                 </p>
             </div>
         </section>
+        
     </main>
   )
 }

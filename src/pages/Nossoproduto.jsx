@@ -30,7 +30,7 @@ export default function Nossoproduto() {
         <section className="py-20">
                 <div className='flex items-center'>
                     <h2 className='text-purple text-3xl font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
-                    <hr className='w-[800px] border-purple' />
+                    <hr className='w-[850px] border-purple' />
                 </div>
                 
                 <div className='flex items-start mt-10'>
@@ -48,7 +48,7 @@ export default function Nossoproduto() {
                     <img src={numeroUm} alt="número 1" className='w-10 h-10' />
                     <div>
                     <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 1</p>
-                    <p className='text-grey-popup font-topico'>Lorem ipsum dolor sit amet. Est iure labore sed sunt inventore At dolor quod et sequi eius. Aut vero accusantium ut ducimus quia sed autem perspiciatis eos atque commodi?</p>
+                    <p className='text-grey-popup font-topico'>Na tela inicial, escolha entre diferentes modos de aprendizado (por exemplo, “Números Básicos”, “Operações Simples”, etc.). O robô apresentará questões matemáticas adequadas à faixa etária da criança.</p>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default function Nossoproduto() {
                     <img src={numeroDois} alt="número 2" className='w-10 h-10' />
                     <div>
                     <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 2</p>
-                    <p className='text-grey-popup font-topico'>Lorem ipsum dolor sit amet. Est iure labore sed sunt inventore At dolor quod et sequi eius. Aut vero accusantium ut ducimus quia sed autem perspiciatis eos atque commodi?</p>
+                    <p className='text-grey-popup font-topico'>A criança pode tocar nos botões na tela para responder às perguntas. O robô fornecerá feedback imediato sobre cada resposta, incentivando o aprendizado e a correção de erros.</p>
                     </div>
                     </div>
 
@@ -64,7 +64,7 @@ export default function Nossoproduto() {
                     <img src={numeroTres} alt="número 3" className='w-10 h-10' />
                     <div>
                     <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 3</p>
-                    <p className='text-grey-popup font-topico'>Lorem ipsum dolor sit amet. Est iure labore sed sunt inventore At dolor quod et sequi eius. Aut vero accusantium ut ducimus quia sed autem perspiciatis eos atque commodi?</p>
+                    <p className='text-grey-popup font-topico'>Baixe o aplicativo complementar no smartphone ou tablet. Use o código de sincronização exibido no robô para conectar o perfil da criança ao aplicativo. Isso permitirá que os pais acompanhem o desenvolvimento e as conquistas da criança em tempo real.</p>
                     </div>
                     </div>
 
@@ -73,7 +73,7 @@ export default function Nossoproduto() {
                     <img src={numeroQuatro} alt="número 4" className='w-10 h-10' />
                     <div>
                     <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 4</p>
-                    <p className='text-grey-popup font-topico'>Lorem ipsum dolor sit amet. Est iure labore sed sunt inventore At dolor quod et sequi eius. Aut vero accusantium ut ducimus quia sed autem perspiciatis eos atque commodi?</p>
+                    <p className='text-grey-popup font-topico'>Para garantir um uso saudável do robô, os pais podem estabelecer limites de tempo diários ou semanais para as sessões de aprendizado.</p>
                     </div>
                     
                    
@@ -82,7 +82,7 @@ export default function Nossoproduto() {
                     <img src={numeroCinco} alt="número 5" className='w-10 h-10'/>
                     <div>
                     <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 5</p>
-                    <p className='text-grey-popup font-topico'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum cumque adipisci est ipsum facere quidem odio repudiandae fugiat explicabo, modi voluptatibus dolores alias excepturi nobis. At doloremque perspiciatis officia dolorem?</p>
+                    <p className='text-grey-popup font-topico'>O robô também pode enviar relatórios semanais para o aplicativo dos pais, sugerindo atividades ou áreas para fortalecer o aprendizado da criança, baseado no desempenho observado.</p>
                     </div>
                 </div>
         
@@ -91,42 +91,50 @@ export default function Nossoproduto() {
                  </div>
                  <section>
                     <div>
-                        <h1 className='text-purple text-3xl font-titulo my-14 font-normal mr-1'>Desenvolvimento</h1>
+                        <div className='flex items-center'>
+                            <h1 className='text-purple text-3xl font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
+                            <hr className='w-[850px] border-purple' />
+                        </div>
+                        
                         <div className='grid grid-cols-1 sm:grid-cols-5 gap-4'>
+                            
                     </div>
                     </div>
-                    <div className='flex justify-center px-0 mb-8 gap-4 '>   
-                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-70">
-                            <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
-                            <img class="w-[88px] h-[85px] left-[56px] top-[42px] absolute" src={lupaRoxa} />
-                            <div class="left-[30px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Primeira Fase</div>
+
+                    <div className='flex justify-center px-0 mb-8 gap-4 '>       
+                            <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                            <div className="flex flex-grow justify-center items-center">
+                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
+                            <div className="text-purple text-2xl font-normal font-titulo">Primeira Fase</div>
                         </div>
 
-                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-50">
-                            <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
-                            <img class="w-[88px] h-[85px] left-[56px] top-[42px] absolute" src={lupaRoxa} />
-                            <div class="left-[29px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Segunda Fase</div>
+                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                            <div className="flex flex-grow justify-center items-center">
+                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
+                            <div className="text-purple text-2xl font-normal font-titulo">Segunda Fase</div>
                         </div>
 
-                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-70">
-                            <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
-                            <img class="w-[88px] h-[85px] left-[56px] top-[42px] absolute" src={lupaRoxa} />
-                            <div class="left-[36px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Terceira Fase</div>
+
+                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                            <div className="flex flex-grow justify-center items-center">
+                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
+                            <div className="text-purple text-2xl font-normal font-titulo">Terceira Fase</div>
                         </div>
 
-                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-70">
-                            <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
-                            <img class="w-[88px] h-[85px] left-[56px] top-[42px] absolute" src={lupaRoxa} />
-                            <div class="left-[36px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Quarta Fase</div>
+
+                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                            <div className="flex flex-grow justify-center items-center">
+                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
+                            <div className="text-purple text-2xl font-normal font-titulo">Quarta Fase</div>
                         </div>
 
-                        <div class="w-[230px] h-[222px] relative rounded-[10px] border-2 border-[#5c6898] object-cover transition-opacity duration-300 hover:opacity-70">
-                            <div class="w-[118px] h-[118px] left-[82px] top-[42px] absolute"></div>
-                            <img class="w-[88px] h-[85px] left-[56px] top-[42px] absolute" src={lupaRoxa} />
-                            <div class="left-[50px] top-[158px] absolute text-[#5c6898] text-2xl font-normal font-['RocknRoll One']">Fase Final</div>
-                        </div>
 
-                        </div>  
+                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                            <div className="flex flex-grow justify-center items-center">
+                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
+                            <div className="text-purple text-2xl font-normal font-titulo">Fase Final</div>
+                        </div>
+                    </div>
 
                         <div className='flex items-start'>
                             <div className='mr-8'>
@@ -134,9 +142,9 @@ export default function Nossoproduto() {
                             </div>
                         </div>
 
-                        <div>
+                        <div className='w-full max-w-[600px]'>
                             <img src={imgPrimeiraFase} alt="arduino"className='absolute right-44 -translate-y-14 w-72 h-512' />
-                            <p className="font-paragrafo text-lg ">Lorem ipsum dolor sit amet. Est iure labore sed sunt inventore At dolor quod <br />et sequi eius. Aut vero accusantium ut ducimus quia sed autem perspiciatis <br /> eos atque commodi?
+                            <p className="font-paragrafo text-lg text-center text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
                             </p>
                         </div>
                  </section>

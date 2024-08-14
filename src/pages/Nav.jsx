@@ -43,17 +43,17 @@ export default function Nav(){
                     </button>
                 </li>
 
-                <li className="text-violet-500 hover:text-purple no-underline hover:underline  decoration-purple font-normal hover:font-semibold border-solid border-2 border-indigo-500 rounded px-5">
+                <li className="text-purple-500 font-normal hover:font-semibold   border-solid border-2 border-purple-600 border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5">
                     <button>
                         <a href="/login">Login</a>
                     </button>
                 </li>
-                <li className="text-white no-underline hover:underline  decoration-purple font-normal hover:font-semibold bg-purple border-solid border-indigo-500 rounded px-5 ">
+                <li className="text-white  font-normal hover:font-semibold border-solid border-2 bg-purple border-purple transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple  rounded px-5 ">
                     <button>
                         <a href="/singup">Sing Up</a>
                     </button>
                 </li>
-            </ul>
+            </ul> 
             
             </div>
             <hr />

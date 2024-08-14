@@ -18,32 +18,33 @@ export default function Bibliografias() {
 
             <div className='flex items-center mt-12 mb-6'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12'>Fontes - artigos científicos</h2>
-                    <hr className='w-[750px] border-purple' />
+                    <hr className='w-[555px] border-purple' />
             </div>
            
            <div className='flex justify-center px-44 mb-8 gap-4'>
-              <div className="w-[282px] h-[379px] relative rounded-[10px] border-2 border-purple ">
-                <img className="w-[118px] h-[118px] left-[48px] top-[42px] absolute" src={iconLivro} />
-                <p className="w-[222px] left-[0px] top-[209px] absolute text-justify text-black text-base font-normal font-paragrafo px-6 ">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
-                <p class="left-[64px] top-[171px] absolute text-justify text-purple text-2xl font-semibold font-paragrafo ">Artigo 1</p>
+              <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
+                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+                <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 1</p>
+                <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>
 
-              <div className="w-[281px] h-[379px] relative rounded-[10px] border-2 border-purple ">
-               <img className="w-[118px] h-[118px] left-[48px] top-[42px] absolute" src={iconLivro} />
-               <p className="w-[238px] left-[24px] top-[211px] absolute text-center text-black text-base font-normal font-paragrafo px-6">A robótica como facilitadora do processo ensino-aprendizagem de matemática no ensino fundamental</p>
-               <p className="left-[64px] top-[173px] absolute text-justify text-purple text-2xl font-semibold font-paragrafo">Artigo 2</p>
+              <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
+                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+                <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 2</p>
+                <p className="text-center text-black text-base text-justify font-paragrafo px-6">A robótica como facilitadora do processo ensino-aprendizagem de matemática no ensino fundamental</p>
               </div>
 
-              <div className="w-[281px] h-[379px] relative rounded-[10px] border-2 border-purple">
-                <img className="w-[118px] h-[118px] left-[48px] top-[40px] absolute" src={iconLivro} />
-                <p className="w-[228px] left-[27px] top-[209px] absolute text-center text-black text-base font-normal font-paragrafo px-6">O Uso da Robótica Educacional no Ensino Fundamenntal: Um estudo de caso prelimiar</p>
-                <p className="left-[64px] top-[171px] absolute text-justify text-purple text-2xl font-semibold font-paragrafo ">Artigo 3</p>
-             </div>
 
-              <div className="w-[282px] h-[379px] relative rounded-[10px] border-2 border-purple">
-               <img className="w-[118px] h-[118px] left-[48px] top-[36px] absolute" src={iconLivro} />
-              <p className="w-[222px] left-[37px] top-[211px] absolute text-center text-black text-base font-normal font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica com Possibilidade Metodológica</p>
-              <p className="left-[64px] top-[171px] absolute text-justify text-purple text-2xl font-semibold font-paragrafo">Artigo 4</p>
+              <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
+                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+                <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 3</p>
+                <p className="text-center text-black text-base text-justify font-paragrafo px-6">O Uso da Robótica Educacional no Ensino Fundamenntal: Um estudo de caso prelimiar</p>
+              </div>
+
+              <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
+                <img className="w-28 h-32 mb-8 translate-y-6" src={iconLivro} alt="Ícone do Livro"/>
+                <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 4</p>
+                <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>
            </div>
           
