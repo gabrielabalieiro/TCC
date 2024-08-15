@@ -5,9 +5,10 @@ module.exports = {
     extend: {
       
       fontFamily:{
-        titulo : 'RocknRollOne',
+        titulo : 'RocknRoll One',
         paragrafo : 'Halant',
-        topico: 'Inter'
+        topico: 'Inter',
+        singUp: 'Scope One'
       },
     },
     colors: {

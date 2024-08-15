@@ -10,24 +10,23 @@ export default function Singup() {
     <body>
         <main className='font-inter'>
             <div className='flex justify-end p-6'>
-                <p className='text-gray mr-2'>Já tem uma conta?</p>
-                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5'>Login</button>
+                <p className='text-gray mr-2'>Não tem uma conta?</p>
+                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5  hover:bg-purple hover:text-white hover:border-purple'> <a href=""></a>Sing up</button>
             </div>
 
-            <div className='text-center mb-6'>
-            <img src={imgRobo} alt="Imagem de um robô "  />
+            <div className='text-center mb-6 pl-[150px]'>
+            <img src={imgRobo} alt="Imagem de um robô " className='w-[600px] transform transition ease-in-out duration-1000 hover:translate-x-3' />
             </div>
           
         
-                <div className='text-center -translate-y-[650px]'>
-                    <h1 className='font-titulo  mb-4 text-center text-2xl pr-[245px] '>Bem vindo ao</h1>
-                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[800px] -translate-y-14'/>
+                <div className='text-center -translate-y-[650px] pl-[150px]'>
+                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[100px] '>Bem vindo ao</h1>
+                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[1055px] -translate-y-14'/>
                     </div>
-                <p className='text-gray  my-4 text-base pl-[635px] -translate-y-[600px]'>Crie a sua conta:</p>
+                <p className='text-gray  my-4 text-base pl-[999px] -translate-y-[700px]'>Crie a sua conta:</p>
                 
-                <div className='max-w-sm mx-auto -translate-y-[600px]'>
-                    <label htmlFor="text" className='block mb-2'>Nome:</label>
-                    <input type="text" placeholder='Nome de usuário' className='placeholder:font-inter placeholder:text-sm  block w-full p-2 border-solid border-2 border-purple rounded '/>
+                <div className='max-w-sm mx-auto -translate-y-[700px] ml-[999px]'>
+                
                 
 
                 <div>
@@ -45,8 +44,8 @@ export default function Singup() {
                     <button className='text-white bg-purple font-semibold border-solid border-2 border-indigo-500 rounded-lg px-7 hover:bg-white hover:text-purple hover:border-purple'>Criar</button>
                 </div>
 
-                <div className='flex justify-center space-x-6 mt-10 '>
-                    <p className='text-gray mr-2 mb-10 p-3 '>Crie uma conta com</p>
+                <div className='flex justify-center space-x-6 mt-10 pr-[155px]'>
+                    <p className='text-gray mr-2 mb-10 p-3'>Crie uma conta com</p>
                     <img src={iconGoogle} alt="Logo do Google" className='mr-2 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110' />
                     <img src={iconFace} alt="Logo do Facebook" className='mr-2 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110' />
                     <img src={iconApple} alt="Logo da Apple" className='mr-2 mb-11 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110'/>

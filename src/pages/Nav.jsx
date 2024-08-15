@@ -43,7 +43,7 @@ export default function Nav(){
                     </button>
                 </li>
 
-                <li className="text-purple-500 font-normal hover:font-semibold   border-solid border-2 border-purple-600 border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5">
+                <li className="text-purple-500 font-normal hover:font-semibold   border-solid border border-purple border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5">
                     <button>
                         <a href="/login">Login</a>
                     </button>
@@ -56,7 +56,7 @@ export default function Nav(){
             </ul> 
             
             </div>
-            <hr />
+            <hr className="border-1 border-purple-500"/>
         </div>
     </header>
     )
