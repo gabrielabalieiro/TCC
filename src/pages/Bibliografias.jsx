@@ -30,7 +30,7 @@ export default function Bibliografias() {
                 <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
-              <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cadernosuninter.com%2Findex.php%2Fintersaberes%2Farticle%2Fview%2F2962%2F2146&psig=AOvVaw3keRduVTb3qC1OISksDNct&ust=1723739952377000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwiY2fbt9fSHAxUAAAAAHQAAAAAQBA" target="_blank" rel=" noopener noreferrer">
+              <a href="https://portal.fundacaojau.edu.br:4433/journal/index.php/revistasanteriores/article/view/126" target="_blank" rel=" noopener noreferrer">
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
                 </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 2</p>
@@ -48,7 +48,7 @@ export default function Bibliografias() {
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
                 </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 4</p>
-                <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
+                <p className="text-center text-black text-base text-justify font-paragrafo px-6">Robótica na Educação Infantil: Educação Tecnológica para Crianças</p>
               </div>
            </div>
           
