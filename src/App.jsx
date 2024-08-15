@@ -25,7 +25,7 @@ function  App() {
       <Route path='/singup' element={<SingUp/>}/>
       <Route path='/login' element={<Login/>}/>
       </Routes>
-</BrowserRouter>
+    </BrowserRouter>
   )
 }
 
