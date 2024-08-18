@@ -1,13 +1,17 @@
 import React from 'react'
+import Nav from './Nav'
+import Footer from "./Footer"
+
 import logoSite from '../assets/logoSite.svg'
 import iconApple from '../assets/iconsRedes/iconLogins/iconApple.svg'
 import iconFace from '../assets/iconsRedes/iconLogins/iconFaceColorido.svg'
 import iconGoogle from '../assets/iconsRedes/iconLogins/iconGoogle.svg'
 import imgRobo from '../assets/roboImg.svg'
 
-export default function Singup() {
+export function Singup() {
   return (
     <body>
+        <Nav/>
         <main className='font-inter'>
             <div className='flex justify-end p-6'>
                 <p className='text-gray mr-2'>Já tem uma conta?</p>
@@ -23,9 +27,9 @@ export default function Singup() {
                     <h1 className='font-singUp  mb-4 text-center text-2xl pl-[100px] '>Bem vindo ao</h1>
                     <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[1055px] -translate-y-14'/>
                     </div>
-                <p className='text-gray  my-4 text-base pl-[999px] -translate-y-[700px]'>Insira as suas informações de login:</p>
+                <p className='text-gray  my-4 text-base pl-[730px] -translate-y-[720px]'>Insira as suas informações de login:</p>
                 
-                <div className='max-w-sm mx-auto -translate-y-[700px] ml-[999px]'>
+                <div className='max-w-sm mx-auto -translate-y-[700px] ml-[730px]'>
                 
                 
                   
@@ -54,6 +58,7 @@ export default function Singup() {
                 </div>
             </div>
         </main>
+        <Footer/>
     </body>
   )
 }

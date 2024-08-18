@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 import logo from '../assets/logoFooter.svg'
 import IconEmail from '../assets/iconsRedes/emailIconAzul.svg'
 import IconInsta from  '../assets/iconsRedes/instaIconAzul.svg'
@@ -34,7 +36,7 @@ function Footer() {
         <div className='flex gap-16 '>
             <div className='mt-8'> 
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
-                    <a href="/produto">Produto</a>
+                    <Link to={"/produto"}>Produto</Link>
                 </button>
             
                 <div className='font-topico font-normal text-white text-xl'>
@@ -46,7 +48,7 @@ function Footer() {
             </div>
             <div className='mt-8'> 
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
-                    <a href="/materiais">Materiais</a>
+                    <Link to={"/materiais"}>Materiais</Link>
                 </button>
             
                 <div className='font-topico font-normal text-white text-xl'>
@@ -58,7 +60,7 @@ function Footer() {
             </div>
             <div className='mt-8'>
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
-                    <a href="/bibliografias">Bibliografia</a>
+                    <Link to={"/bibliografias"}>Bibliografia</Link>
                 </button>
             
                 <div className='font-topico font-normal text-white text-xl'>
@@ -69,7 +71,7 @@ function Footer() {
             </div>
             <div className='mt-8 mr-16'>
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
-                    <a href="/quemsomos">Somos?</a>
+                    <Link to={"/quemsomos"}>Somos</Link>
                 </button>
             
                 <div className='font-topico font-normal text-white text-xl'>

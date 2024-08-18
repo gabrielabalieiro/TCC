@@ -1,32 +1,52 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Nossoproduto from './pages/Nossoproduto'
-import Materiais from './pages/Materiais'
-import Bibliografias from './pages/Bibliografias'
-import Quemsomos from './pages/Quemsomos'
-import Footer from './pages/Footer'
-import SingUp from './pages/Singup'
-import Login from  './pages/Login'
+import { createBrowserRouter, RouterProvider, BrowserRouter } from 'react-router-dom'
 
 
+import { Home } from './pages/Home.jsx'
+import { Nossoproduto } from './pages/Nossoproduto'
+import { Materiais} from './pages/Materiais'
+import { Bibliografias } from './pages/Bibliografias'
+import { Quemsomos } from './pages/Quemsomos'
+import { Singup } from './pages/Singup'
+import { Login } from  './pages/Login'
 
-function  App() {
-  
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "/produto",
+    element: <Nossoproduto/>
+  },
+  {
+    path: "/materiais",
+    element: <Materiais/>
+  },
+  {
+    path: "/bibliografias",
+    element: <Bibliografias/>
+  },
+  {
+    path: "/quemsomos",
+    element: <Quemsomos/>
+  },
+  {
+    path: "/singup",
+    element: <Singup/>
+  },
+  {
+    path: "/login",
+    element: <Login/>
+  }
+])
+
+
+export function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/produto' element={<Nossoproduto/>}/>
-      <Route path='/materiais' element={<Materiais/>}/>
-      <Route path='/bibliografias' element={<Bibliografias/>}/>
-      <Route path='/quemsomos' element={<Quemsomos/>}/>
-      <Route path='/singup' element={<SingUp/>}/>
-      <Route path='/login' element={<Login/>}/>
-      </Routes>
-    </BrowserRouter>
+     <RouterProvider router={router} />
   )
 }
 
-export default App
+

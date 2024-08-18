@@ -2,6 +2,8 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 
 
 import React from 'react'
+import Nav from './Nav'
+import Footer from "./Footer"
 
 import imgRoboMateriais from '../assets/iconsRedes/robo_materiais.svg'
 import imgCirculoMateriais from '../assets/iconsRedes/circulo_materiais.svg'
@@ -14,9 +16,11 @@ import imgSetaL from '../assets/iconsRedes/setalcd.svg'
 import imgBols from '../assets/iconsRedes/bols_material.svg'
 import imgBols2 from '../assets/iconsRedes/bols_branca.svg'
 
-export default function Materiais() {
+export function Materiais() {
   return (
-    <main>
+    <div>
+        <Nav/>
+        <div>
         <section>
             <div>
                 <h1 className="text-5xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14">Materiais</h1>
@@ -97,6 +101,8 @@ export default function Materiais() {
             </div>
         </section>
         
-    </main>
+    </div>
+    <Footer/>
+    </div>
   )
 }

@@ -1,4 +1,6 @@
 import React from 'react'
+import Nav from './Nav'
+import Footer from "./Footer"
 
 import numeroUm from '../assets/iconsRedes/iconsNumero/iconUm.svg'
 import numeroDois from '../assets/iconsRedes/iconsNumero/iconDois.svg'
@@ -11,9 +13,11 @@ import lupaRoxa from '../assets/iconsRedes/iconLupa/iconLupaRoxo.svg'
 
 import imgPrimeiraFase from '../assets/iconsRedes/image_primeira_fase.svg'
 
-export default function Nossoproduto() {
+export function Nossoproduto() {
   return (
-    <main className="min-h-screen flex justify-center items-center">
+    <div>
+        <Nav/>
+            <div className="min-h-screen flex justify-center items-center">
         <section className=" p-8 rounded-lg  max-w-6xl w-full">
             <div className=" grid grid-cols-2 gap-8 items-center ">
             <div>
@@ -147,9 +151,11 @@ export default function Nossoproduto() {
                             <p className="font-paragrafo text-lg text-center text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
                             </p>
                         </div>
-                 </section>
-        </section>
-        </section>
-    </main>
+                    </section>
+                </section>
+            </section>
+        </div>
+        <Footer/>
+    </div>
   )
 }

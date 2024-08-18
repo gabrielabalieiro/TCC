@@ -1,11 +1,15 @@
 import React from 'react'
+import Nav from './Nav'
+import Footer from "./Footer"
 
 import iconLivro from '../assets/iconsRedes/iconLivro.svg'
 
-export default function Bibliografias() {
+export function Bibliografias() {
   return (
-    <main>
-        <section className='p-8 '>
+    <div>
+      <Nav/>
+      <div>
+      <section className='p-8 '>
             <div>
                 <h1 className="text-purple text-5xl px-44 py-8 font-semibold font-titulo">Bibliografias</h1>
                 <p className="font-paragrafo text-justify px-44 py-38">A ciência tem mostrado o quão é importante a utilização de meios que modifiquem o ensino e a aprendizagem através do uso da tecnologia, instiguem e criem situações provocantes, possam cativar a atenção das crianças, tornando o processo de aprendizagem mais envolvente e interessante partindo desse princípio, surgiu a ideia do protótipo do Robô Kids.
@@ -18,7 +22,7 @@ export default function Bibliografias() {
 
             <div className='flex items-center mt-12 mb-6'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12'>Fontes - artigos científicos</h2>
-                    <hr className='w-[555px] border-purple' />
+                    <hr className='w-[466px] border-purple' />
             </div>
            
            <div className='flex justify-center px-44 mb-8 gap-4'>
@@ -30,7 +34,7 @@ export default function Bibliografias() {
                 <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-4 flex flex-col items-center">
-              <a href="https://portal.fundacaojau.edu.br:4433/journal/index.php/revistasanteriores/article/view/126" target="_blank" rel=" noopener noreferrer">
+              <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cadernosuninter.com%2Findex.php%2Fintersaberes%2Farticle%2Fview%2F2962%2F2146&psig=AOvVaw3keRduVTb3qC1OISksDNct&ust=1723739952377000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwiY2fbt9fSHAxUAAAAAHQAAAAAQBA" target="_blank" rel=" noopener noreferrer">
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
                 </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 2</p>
@@ -48,12 +52,14 @@ export default function Bibliografias() {
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
                 </a>
                 <p className="text-purple text-2xl font-semibold font-paragrafo mb-2 ">Artigo 4</p>
-                <p className="text-center text-black text-base text-justify font-paragrafo px-6">Robótica na Educação Infantil: Educação Tecnológica para Crianças</p>
+                <p className="text-center text-black text-base text-justify font-paragrafo px-6">Linguagem Visual para Arduino na Educação Básica como Possibilidade Metodológica</p>
               </div>
            </div>
           
 
         </section>
-    </main>
+      </div>
+      
+    </div>
   )
 }
