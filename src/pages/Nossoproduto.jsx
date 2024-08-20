@@ -111,7 +111,7 @@ export function Nossoproduto() {
                             <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-purple transition-opacity duration-300 hover:opacity-50 text-white">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-22 h-21" src={lupaBranca} alt="Lupa Roxa"/></div>
-                            <div className="text-white text-2xl font-normal font-titulo ">Primeira Fase</div>
+                            <div className="text-white text-xl sm:text-2xl font-normal font-titulo ">Primeira Fase</div>
                         </div>
 
                         <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
@@ -145,7 +145,7 @@ export function Nossoproduto() {
                         <div className='flex flex-col items-center sm:items-start'>
                             <div className='sm:flex sm:items-center'>
                                 <div className='mr-8'>
-                                <p className='font-topico text-purple text-2xl sm:mb-5 text-center sm:text-center mb-10'>Primeira Fase</p>
+                                <p className='font-topico text-purple text-xl sm:text-2xl sm:mb-5 text-center sm:text-center mb-10'>Primeira Fase</p>
                                 </div>
                             </div>
 

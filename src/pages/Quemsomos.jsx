@@ -36,7 +36,7 @@ export function Quemsomos() {
       </div>
 
       <div className='flex space-x-9 justify-center mb-8 py-9 '>
-        <div className=' border-2 border-purple rounded-2xl p-2 text-center  overflow-hidden  flex flex flex-col items-center bg-violet shadow-2xl shadow-violet-500/50  '>
+        <div className=' border-2 border-purple rounded-2xl p-2 text-center  overflow-hidden  flex flex-col items-center bg-violet shadow-2xl shadow-violet-500/50  '>
           <img src={fotoLee} alt="Leticia foto" className="rounded-full  mx-auto mb-8 border-2 border-purple "/>
           
           <p className='text-purple text-xl font-bold font-paragrafo'>Leticia Lopes</p>
