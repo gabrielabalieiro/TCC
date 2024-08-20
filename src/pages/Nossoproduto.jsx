@@ -150,7 +150,7 @@ export function Nossoproduto() {
 
                         <div className='w-full max-w-[600px]'>
                             <img src={imgPrimeiraFase} alt="arduino"className='absolute right-44 -translate-y-14 w-72 h-512' />
-                            <p className="font-paragrafo text-lg text-center text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
+                            <p className="font-paragrafo text-lg  text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
                             </p>
                         </div>
                     </section>
