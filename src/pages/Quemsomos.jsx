@@ -28,7 +28,7 @@ export function Quemsomos() {
     <div>
       <Nav/>
       <div className="py-8  mb-44 sm:px-44">
-      <h1 className='text-2xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14 sm:text-4xl sm:py-14'>Desenvolvedores</h1>
+      <h1 className='text-1xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14 sm:text-4xl sm:py-14'>Desenvolvedores</h1>
       
       <div>
             <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-44'/>
@@ -36,7 +36,7 @@ export function Quemsomos() {
       </div>
 
       <div className='flex space-x-9 justify-center mb-8 py-9 '>
-        <div className=' border-2 border-purple rounded-2xl p-2 text-center bg-violet shadow-2xl shadow-violet-500/50  '>
+        <div className=' border-2 border-purple rounded-2xl p-2 text-center  overflow-hidden  flex flex flex-col items-center bg-violet shadow-2xl shadow-violet-500/50  '>
           <img src={fotoLee} alt="Leticia foto" className="rounded-full  mx-auto mb-8 border-2 border-purple "/>
           
           <p className='text-purple text-xl font-bold font-paragrafo'>Leticia Lopes</p>
@@ -50,7 +50,7 @@ export function Quemsomos() {
             
           </div>
         </div>
-        <div className='border-2 border-purple rounded-2xl p-2 text-center bg-violet shadow-2xl shadow-violet-500/50'>
+        <div className='hidden border-2 border-purple rounded-2xl p-2 text-center overflow-hidden  sm:flex flex flex-col items-center   bg-violet shadow-2xl shadow-violet-500/50 '>
           <img src={fotoGabs} alt="Gabriela foto" className="rounded-full mx-auto mb-8 border-2 border-purple" />
           <p className='text-purple text-xl font-bold font-paragrafo'>Gabriela Balieiro</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
@@ -62,7 +62,7 @@ export function Quemsomos() {
             
           </div>
         </div>
-        <div className='border-2  border-purple rounded-2xl p-2 text-center bg-violet shadow-2xl shadow-violet-500/50'>
+        <div className='hidden border-2  border-purple rounded-2xl p-2 text-center overflow-hidden   sm:flex flex-col items-center  bg-violet shadow-2xl shadow-violet-500/50 '>
           <img src={fotoBia} alt="Beatriz foto" className="rounded-full mx-auto mb-8 border-2 border-purple" />
           <p className='text-purple text-xl font-bold font-paragrafo'>Beatriz Gonçalves</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>
@@ -73,7 +73,7 @@ export function Quemsomos() {
             </button>
           </div>
         </div>
-        <div className='border-2 border-purple rounded-2xl p-2 text-center bg-violet shadow-2xl shadow-violet-500/50'>
+        <div className='hidden border-2 border-purple rounded-2xl p-2 text-center overflow-hidden sm:flex flex-col items-center  bg-violet shadow-2xl shadow-violet-500/50'>
           <img src={fotoThigas} alt="Thiago foto" className="rounded-full mx-auto mb-8 border-2 border-purple" />
           <p className='text-purple text-xl font-bold font-paragrafo '>Thiago Pinheiro</p>
           <p className='text-black font-light font-paragrafo'>O que fez...</p>

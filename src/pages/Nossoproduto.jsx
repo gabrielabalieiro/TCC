@@ -34,8 +34,8 @@ export function Nossoproduto() {
         
         <section className="py-20">
                 <div className='flex items-center'>
-                    <h2 className='text-purple text-3xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
-                    <hr className='w-[850px] border-purple' />
+                    <h2 className='text-purple text-1xl md:2xl lg:text-[48px] font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
+                    <hr className='sm:w-[850px] w-[400px] border-purple' />
                 </div>
                 
                 <div className='sm:flex  items-start mt-10'>
@@ -43,7 +43,7 @@ export function Nossoproduto() {
 
                 <div className='flex justify-start sm:items-start '>
                 <div className='mr-8'>
-                <p className='font-topico text-purple text-2xl  mb-5  mr-5 '>Guia de utilização</p>
+                <p className='font-topico text-purple text-1xl mb:2xl mb-5  mr-5 '>Guia de utilização</p>
                 </div>
 
                 </div>
@@ -98,7 +98,7 @@ export function Nossoproduto() {
                  <section>
                     <div>
                         <div className='flex items-center'>
-                            <h1 className='text-purple text-3xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
+                            <h1 className='text-purple text-1xl sm:2xl lg:text-[48px] font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
                             <hr className='w-[850px] border-purple' />
                         </div>
                         
@@ -108,15 +108,15 @@ export function Nossoproduto() {
                     </div>
 
                     <div className='flex justify-center px-0 mb-8 gap-4 '>       
-                            <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                            <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-purple transition-opacity duration-300 hover:opacity-50 text-white">
                             <div className="flex flex-grow justify-center items-center">
-                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
-                            <div className="text-purple text-2xl font-normal font-titulo">Primeira Fase</div>
+                            <img className="w-22 h-21" src={lupaBranca} alt="Lupa Roxa"/></div>
+                            <div className="text-white text-2xl font-normal font-titulo ">Primeira Fase</div>
                         </div>
 
                         <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
-                            <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
+                            <img className="w-21 h-20" src={lupaRoxa} alt="Lupa Roxa"/></div>
                             <div className="text-purple text-2xl font-normal font-titulo">Segunda Fase</div>
                         </div>
 
@@ -135,24 +135,27 @@ export function Nossoproduto() {
                         </div>
 
 
-                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
-                            <div className="text-purple text-2xl font-normal font-titulo">Fase Final</div>
+                            <div className="text-purple text-2xl font-normal font-titulo text-center">Fase Final</div>
                         </div>
                     </div>
+    
+                        <div className='flex flex-col items-center sm:items-start'>
+                            <div className='sm:flex sm:items-center'>
+                                <div className='mr-8'>
+                                <p className='font-topico text-purple text-2xl sm:mb-5 text-center sm:text-center mb-10'>Primeira Fase</p>
+                                </div>
+                            </div>
 
-                        <div className='flex items-start'>
-                            <div className='mr-8'>
-                            <p className='font-topico text-purple text-2xl  mb-5  mr-5'>Primeira Fase</p>
+                            <div className='w-full max-w-[600px] flex flex-col items-center'>
+                                <img src={imgPrimeiraFase} alt="arduino"className='sm:absolute sm:right-44 -translate-y-14 sm:w-72 sm:h-512 mt-4 w-72 h-auto ' />
+                                <p className="font-paragrafo text-lg  text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
+                                </p>
                             </div>
                         </div>
-
-                        <div className='w-full max-w-[600px]'>
-                            <img src={imgPrimeiraFase} alt="arduino"className='absolute right-44 -translate-y-14 w-72 h-512' />
-                            <p className="font-paragrafo text-lg  text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
-                            </p>
-                        </div>
+                        
                     </section>
                 </section>
             </section>

@@ -61,12 +61,12 @@ export default function Nav(){
         </div>
 
         <div className='md:hidden '>
-            <div className='flex justify-between '>
+            <div className='flex justify-between  '>
                 <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto my-2 " />
                 <ul className='group'>
-                    <button className='flex '>
+                    <button className='relative flex '>
                         <img src={tresLinhas} alt=""/>
-                        <div className='hidden group-hover:block w-fit list-none rounded absolute bg-grey p-4'>
+                        <div className='hidden group-hover:block w-fit list-none rounded absolute right-0 bg-grey p-4'>
                             <ul className='gap-8'>
                                 <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : ' text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/"}>Home</Link></li>
                                 <li className={location.pathname === "/produto" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/produto"}>Produto</Link></li>

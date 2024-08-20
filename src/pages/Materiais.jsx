@@ -23,7 +23,7 @@ export function Materiais() {
         <div>
         <section>
             <div>
-                <h1 className="text-5xl font-semibold text-purple mb-4  font-titulo text-center p-14">Materiais</h1>
+                <h1 className="text-2xl  md:text-5xl font-semibold text-purple mb-4  font-titulo text-center p-14">Materiais</h1>
         </div>
         <div>
             <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
@@ -39,7 +39,7 @@ export function Materiais() {
                 <div className="w-30 h-30 bg-gray-300 mt-4"></div>
             </div>
 
-            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center">
+            <div className="hidden w-68 h-88 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col font-sans p-4 flex flex-col items-center">
                 <img className="w-50 h-38 mb-4" src={imgArduino} alt="Arduino" />
                 <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Arduino</div>
                 <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Desenvolvimento de projetos eletrônicos</div>
@@ -47,7 +47,7 @@ export function Materiais() {
                 <div className="w-30 h-30 bg-gray-300 mt-4"></div>
             </div>
 
-            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center">
+            <div className="hidden w-68 h-88 rounded-lg border-2 border-purple overflow-hidden  sm:flex font-sans p-4 flex flex-col items-center ">
                 <img className="w-50 h-38 mb-4" src={imgMotor} alt="Motor" />
                 <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Motor</div>
                 <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Execulta movimentos progamados</div>
@@ -57,7 +57,7 @@ export function Materiais() {
 
         </div>
         
-            <div className='mb-24 flex justify-center gap-3 -translate-y-12'>
+            <div className='mb-24 flex justify-center gap-3 -translate-y-12 '>
                 <img src={imgBols} alt="" className='hover:scale-110 '/>
                 <img src={imgBols2} alt="" className='hover:scale-110 '/>
                 <img src={imgBols2} alt="" className='hover:scale-110 '/>
@@ -93,7 +93,7 @@ export function Materiais() {
         <section>
             <div>
                 <div className='flex items-center'>
-                    <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Valor final</h2>
+                    <h2 className='text-purple font-titulo text-2xl sm:text-3xl  px-44 pr-12 '>Valor final</h2>
                     <hr className='w-[816px] border-purple' />
                 </div>
                 <p className='text-justify font-paragrafo px-44 py-6 mb-6'>O nosso projeto, além de ter um alto custo inicial, demanda um grande esforço de trabalho, por isso projetamos um valor inicial de 1.500,00 R$, levando em consideração todo o custo e desenvolvimento. Além disso, o projeto é altamente tecnológico e apresenta um diferencial significativo, incluindo um aplicativo que permite aos pais acompanhar a evolução da criança e um jogo divertido para a própria criança. Tudo isso é integrado com o robô, proporcionando um suporte completo ao cliente.
