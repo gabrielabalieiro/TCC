@@ -35,11 +35,11 @@ function Footer() {
 
         <div className='flex flex-col gap-8 sm:flex sm:flex-row sm:gap-16 ml-28'>
             <div className='mt-8'> 
-                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
+                <button className='font-paragrafo font-bold text-light-blue text-xl sm:text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/produto"}>Produto</Link>
                 </button>
             
-                <div className='font-topico font-normal text-white text-xl'>
+                <div className='font-topico font-normal text-white text-lg sm:text-xl'>
                     <p>O que é?</p>
                     <p>Funcionamento</p>
                     <p>Desenvolvimento</p>
@@ -47,11 +47,11 @@ function Footer() {
             
             </div>
             <div className='sm:mt-8'> 
-                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
+                <button className='font-paragrafo font-bold text-light-blue text-xl sm:text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/materiais"}>Materiais</Link>
                 </button>
             
-                <div className='font-topico font-normal text-white text-xl'>
+                <div className='font-topico font-normal text-white text-lg sm:text-xl'>
                     <p>Componentes</p>
                     <p>Utilização</p>
                     <p>Valor final do projeto</p>
@@ -59,22 +59,22 @@ function Footer() {
             
             </div>
             <div className='sm:mt-8'>
-                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
+                <button className='font-paragrafo font-bold text-light-blue text-xl sm:text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/bibliografias"}>Bibliografia</Link>
                 </button>
             
-                <div className='font-topico font-normal text-white text-xl'>
+                <div className='font-topico font-normal text-white text-lg sm:text-xl'>
                     <p>Descrição</p>
                     <p>Artigos</p>
                 </div>
             
             </div>
             <div className='sm:mt-8 mr-16'>
-                <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
+                <button className='font-paragrafo font-bold text-light-blue text-xl sm:text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/quemsomos"}>Somos</Link>
                 </button>
             
-                <div className='font-topico font-normal text-white text-xl'>
+                <div className='font-topico font-normal text-white text-lg sm:text-xl'>
                     <p>Desenvolvedores</p>
                 </div>
             
