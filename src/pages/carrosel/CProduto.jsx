@@ -23,13 +23,13 @@ export default function CProduto() {
           className="mySwiper"
         >
           <SwiperSlide>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-80  h-130 rounded-lg shadow-2xl ml-20 " />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl ml-24 " />
           </SwiperSlide>
           <SwiperSlide>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-80  h-130 rounded-lg shadow-2xl ml-20 " />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl ml-24 " />
           </SwiperSlide>
           <SwiperSlide>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-80  h-130 rounded-lg shadow-2xl ml-20 " />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl ml-24 " />
           </SwiperSlide>
           {/* Adicione mais slides conforme necessário */}
         </Swiper>
