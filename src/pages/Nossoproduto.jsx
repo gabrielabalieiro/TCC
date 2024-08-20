@@ -38,13 +38,14 @@ export function Nossoproduto() {
                     <hr className='w-[850px] border-purple' />
                 </div>
                 
-                <div className='flex items-start mt-10'>
+                <div className='sm:flex  items-start mt-10'>
                 
 
-                <div className='flex items-start'>
+                <div className='flex justify-start sm:items-start '>
                 <div className='mr-8'>
-                <p className='font-topico text-purple text-2xl  mb-5  mr-5'>Guia de utilização</p>
+                <p className='font-topico text-purple text-2xl  mb-5  mr-5 '>Guia de utilização</p>
                 </div>
+
                 </div>
                 
                 
@@ -53,7 +54,7 @@ export function Nossoproduto() {
                     <img src={numeroUm} alt="número 1" className='w-10 h-10' />
                     <div>
                     <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 1</p>
-                    <p className='text-grey-popup font-topico'>Na tela inicial, escolha entre diferentes modos de aprendizado (por exemplo, “Números Básicos”, “Operações Simples”, etc.). O robô apresentará questões matemáticas adequadas à faixa etária da criança.</p>
+                    <p className='text-grey-popup font-topico text-base sm:text-x1'>Na tela inicial, escolha entre diferentes modos de aprendizado (por exemplo, “Números Básicos”, “Operações Simples”, etc.). O robô apresentará questões matemáticas adequadas à faixa etária da criança.</p>
                     </div>
                 </div>
 
