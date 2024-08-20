@@ -10,8 +10,8 @@ import IconFace from '../assets/iconsRedes/faceIconAzul.svg'
 
 function Footer() {
   return (
-    <footer className="bg-purple items-center sm:flex mx-auto">
-        <div className="container mx-auto ml-20 ">
+    <footer className="bg-purple py-8 items-center sm:flex mx-auto">
+        <div className="container mx-auto ml-20">
             <div className="mb-4 md:mb-3.5">
                 <img src={logo} alt="Logo do site escrito Robô Kids" />
             </div>

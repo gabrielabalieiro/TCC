@@ -13,9 +13,9 @@ export function Singup() {
     <body>
         <Nav/>
         <main className='font-inter'>
-            <div className='flex justify-end p-6'>
-                <p className='text-gray mr-2'>Já tem uma conta?</p>
-                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple'> <a href="/login">Login</a></button>
+            <div className='flex justify-end p-6 gap-8 ml-10'>
+                <p className='text-gray '>Já tem uma conta?</p>
+                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href="/login">Login</a></button>
             </div>
 
             <div className='text-center mb-6 pl-[150px]'>
@@ -23,17 +23,22 @@ export function Singup() {
             </div>
           
         
-                <div className='text-center -translate-y-[650px] pl-[150px]'>
-                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[107px] '>Bem vindo ao</h1>
-                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[740px] -translate-y-14'/>
+                <div className='text-center -translate-y-[650px] pl-[80px]'>
+                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[0] '>Bem vindo ao</h1>
+                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[810px] -translate-y-14'/>
                     </div>
-                <p className='text-gray  my-4 text-base pl-[730px] -translate-y-[720px] mt-8'>Insira as suas informações de login:</p>
+                <p className='text-gray  my-4 text-base pl-[730px] -translate-y-[720px] mt-8'>Crie a sua conta:</p>
                 
                 <div className='max-w-sm mx-auto -translate-y-[700px] ml-[730px]'>
                 
                 
                   
                 
+                <div>
+                    <label htmlFor="email" className='block mt-4 mb-2'>Nome:</label>
+                    <input type="text" placeholder='ex:robokids@gmail.com' className='block w-full p-2 border-solid border-2 border-purple rounded'/>
+                </div>
+
 
                 <div>
                     <label htmlFor="email" className='block mt-4 mb-2'>E-mail ou User:</label>

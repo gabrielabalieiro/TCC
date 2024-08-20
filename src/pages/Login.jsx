@@ -12,9 +12,9 @@ export function Login() {
     <body>
         <Nav/>
         <main className='font-inter'>
-            <div className='flex justify-end p-6'>
-                <p className='text-gray mr-2'>Não tem uma conta?</p>
-                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5  hover:bg-purple hover:text-white hover:border-purple'> <a href=""></a>Sing up</button>
+            <div className='flex justify-end p-6 gap-8'>
+                <p className='text-gray '>Não tem uma conta?</p>
+                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5  hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href=""></a>Sing up</button>
             </div>
 
             <div className='text-center mb-6 pl-[150px]'>
@@ -22,11 +22,11 @@ export function Login() {
             </div>
           
         
-                <div className='text-center -translate-y-[650px] pl-[150px]'>
-                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[100px] '>Bem vindo ao</h1>
-                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[740px] -translate-y-14'/>
+                <div className='text-center -translate-y-[650px] pl-[70px]'>
+                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-2 '>Bem vindo ao</h1>
+                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[820px] -translate-y-14'/>
                     </div>
-                <p className='text-gray  my-4 text-base pl-[727px] -translate-y-[700px] mb-5'>Crie a sua conta:</p>
+                <p className='text-gray  my-4 text-base pl-[727px] -translate-y-[700px] mb-5'>Insira suas informações de login:</p>
                 
                 <div className='max-w-sm mx-auto -translate-y-[700px] ml-[730px]'>
                 
