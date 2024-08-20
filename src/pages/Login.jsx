@@ -23,7 +23,7 @@ export function Login() {
           
         
                 <div className='text-center -translate-y-[650px] pl-[70px]'>
-                    <h1 className='font-singUp  mb-4 text-center text-2xl pr-[400px] '>Bem vindo ao</h1>
+                    <h1 className='font-singUp  mb-4 text-center text-2xl pr-[370px] '>Bem vindo ao</h1>
                     <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[820px] -translate-y-14'/>
                     </div>
                 <p className='text-gray  my-4 text-base pl-[727px] -translate-y-[700px] mb-5'>Insira suas informações de login:</p>

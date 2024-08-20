@@ -24,7 +24,7 @@ export function Singup() {
           
         
                 <div className='text-center -translate-y-[650px] pl-[80px]'>
-                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[0] '>Bem vindo ao</h1>
+                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[0] pr-[370px] '>Bem vindo ao</h1>
                     <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[810px] -translate-y-14'/>
                     </div>
                 <p className='text-gray  my-4 text-base pl-[730px] -translate-y-[720px] mt-8'>Crie a sua conta:</p>
