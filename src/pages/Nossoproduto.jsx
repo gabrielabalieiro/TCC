@@ -19,7 +19,7 @@ export function Nossoproduto() {
     <div>
         <Nav/>
             <div className="min-h-screen flex justify-center items-center">
-        <section className=" p-8 rounded-lg  max-w-6xl w-full">
+        <section className="p-8 rounded-lg  max-w-6xl w-full">
             <div className=" grid grid-cols-2 gap-8 items-center ">
             <div>
                 <h1 className='text-purple text-5xl font-semibold font-titulo mb-10 '>Robô Kids</h1>

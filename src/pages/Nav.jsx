@@ -61,21 +61,20 @@ export default function Nav(){
         </div>
 
         <div className='md:hidden '>
-            <div className='flex space-x-44 '>
-                <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto  my-2 " />
+            <div className='flex justify-between '>
+                <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto my-2 " />
                 <ul className='group'>
-                    <button className='flex'>
+                    <button className='flex '>
                         <img src={tresLinhas} alt=""/>
-                        <div className='hidden group-hover:block w-fit list-none rounded absolute bg-grey '>
-                            <ul>
-                                <img src="" alt="" />
-                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/"}>Home</Link></li>
-                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/produto"}>Produto</Link></li>
-                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/materiais"}>Materiais</Link></li>
-                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/bibliografias"}>Bibliografias</Link></li>
-                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/quemsomos"}>Quem somos?</Link></li>
-                                <button><Link to={"/login"}>Login</Link></button>
-                                <button><Link to={"/singup"}>Sing Up</Link></button>
+                        <div className='hidden group-hover:block w-fit list-none rounded absolute bg-grey p-4'>
+                            <ul className='gap-8'>
+                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : ' text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/"}>Home</Link></li>
+                                <li className={location.pathname === "/produto" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/produto"}>Produto</Link></li>
+                                <li className={location.pathname === "/materiais" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/materiais"}>Materiais</Link></li>
+                                <li className={location.pathname === "/bibliografias" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/bibliografias"}>Bibliografias</Link></li>
+                                <li className={location.pathname === "/quemsomos" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/quemsomos"}>Quem somos?</Link></li>
+                                <button className="text-purple-500 font-normal hover:font-semibold   border-solid border border-purple border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5"><Link to={"/login"}>Login</Link></button>
+                                <button className="text-white  font-normal hover:font-semibold border-solid border-2 bg-purple border-purple transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple  rounded px-5 "><Link to={"/singup"}>Sing Up</Link></button>
                             </ul>
                         </div>
                     </button>
