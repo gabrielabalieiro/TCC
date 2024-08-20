@@ -26,7 +26,7 @@ export function Login() {
                     <h1 className='font-singUp  mb-4 text-center text-2xl pl-[100px] '>Bem vindo ao</h1>
                     <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[740px] -translate-y-14'/>
                     </div>
-                <p className='text-gray  my-4 text-base pl-[727px] -translate-y-[700px]'>Crie a sua conta:</p>
+                <p className='text-gray  my-4 text-base pl-[727px] -translate-y-[700px] mb-5'>Crie a sua conta:</p>
                 
                 <div className='max-w-sm mx-auto -translate-y-[700px] ml-[730px]'>
                 
@@ -47,11 +47,11 @@ export function Login() {
                     <button className='text-white bg-purple font-semibold border-solid border-2 border-indigo-500 rounded-lg px-7 hover:bg-white hover:text-purple hover:border-purple'>Criar</button>
                 </div>
 
-                <div className='flex justify-center space-x-6 mt-10 pr-[155px]'>
-                    <p className='text-gray mr-2 mb-10 p-3'>Crie uma conta com</p>
+                <div className='flex justify-center space-x-6 mt-12 mr-16'>
+                    <p className='text-gray '>Crie uma conta com</p>
                     <img src={iconGoogle} alt="Logo do Google" className='mr-2 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110' />
                     <img src={iconFace} alt="Logo do Facebook" className='mr-2 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110' />
-                    <img src={iconApple} alt="Logo da Apple" className='mr-2 mb-11 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110'/>
+                    <img src={iconApple} alt="Logo da Apple" className='mr-2 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110'/>
                 </div>
             </div>
         </main>

@@ -7,6 +7,7 @@ import Footer from "./Footer"
 
 
 
+
 import { Link } from 'react-router-dom'
 
 export function Home() {
@@ -16,7 +17,7 @@ export function Home() {
         <Nav/>
         <div className=" flex items-center justify-center min-h-screen ">
               <div className=" flex items-center " >
-                    <img src={imgRobo} alt="Imagem de um Robô na cor branca" className="w-557 mr-8 transform transition ease-in-out duration-1000 hover:translate-x-3" />
+                    <img src={imgRobo} alt="Imagem de um Robô na cor branca" className="w-557 mr-8 transform transition ease-in-out duration-1000 float-effect" />
                 
 
                     <div>

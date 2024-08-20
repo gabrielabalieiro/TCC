@@ -23,7 +23,7 @@ export function Materiais() {
         <div>
         <section>
             <div>
-                <h1 className="text-5xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14">Materiais</h1>
+                <h1 className="text-5xl font-semibold text-purple mb-4  font-titulo text-center p-14">Materiais</h1>
         </div>
         <div>
             <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
@@ -79,7 +79,7 @@ export function Materiais() {
                     <hr className='w-[816px] border-purple' />
                 </div>
 
-                <div className='translate-y-28 transform transition ease-in-out duration-1000 hover:translate-y-10'>
+                <div className=' mt-24 transform transition ease-in-out duration-1000 float-effect'>
                     <p className='font-paragrafo text-right pr-80 translate-y-16 '>Display LCD Led</p>
                         <img src={imgSetaL} alt="" className='mx-auto translate-y-11 pl-72' />
                     <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" className=' absolute left-24 right-24  w-64 h-512 mx-auto' />
@@ -92,7 +92,7 @@ export function Materiais() {
 
         <section>
             <div>
-                <div className='flex items-center'>
+                <div className='flex items-center mc-auto'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Valor final</h2>
                     <hr className='w-[816px] border-purple' />
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import Footer from "./Footer"
+import CProduto from './carrosel/CProduto'
 
 import numeroUm from '../assets/iconsRedes/iconsNumero/iconUm.svg'
 import numeroDois from '../assets/iconsRedes/iconsNumero/iconDois.svg'
@@ -27,7 +28,7 @@ export function Nossoproduto() {
                 <p className="font-paragrafo text-justify mb-5 text-lg" > Além disso, um aplicativo ligado ao robô, lista todos os acertos e erros conforme as perguntas realizadas pelo robô para aprendizagem, com o objetivo de ajudar e facilitar o uso aos pais para que possam acompanhar o desenvolvimento educativo de seu filho, podendo observar através de dados quais são as dificuldades que a criança apresenta na matéria de matemática. E o mais importante para que ajude as crianças a aprenderem e adquirirem mais conhecimentos</p>
                 </div>
                 <div className=" flex justify-center">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zuPaaOjXNWaQ1GOvPlmx_R29RHfR5GEjbw&s" alt="" className=" flex items-center w-80  h-130 rounded-lg shadow-2xl ml-20 " />
+                <CProduto/>
                 </div>  
             </div>
         
