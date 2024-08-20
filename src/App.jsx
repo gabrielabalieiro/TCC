@@ -9,6 +9,7 @@ import { Bibliografias } from './pages/Bibliografias'
 import { Quemsomos } from './pages/Quemsomos'
 import { Singup } from './pages/Singup'
 import { Login } from  './pages/Login'
+import './customSwiper.css'
 
 
 const router = createBrowserRouter([

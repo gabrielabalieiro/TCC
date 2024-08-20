@@ -1,0 +1,9 @@
+.swiper-pagination-bullet {
+    background-color: #000; /* Cor das bolinhas */
+    opacity: 0.7;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #fff; /* Cor da bolinha ativa */
+    opacity: 1;
+  }

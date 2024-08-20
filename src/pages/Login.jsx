@@ -18,7 +18,7 @@ export function Login() {
             </div>
 
             <div className='text-center mb-6 pl-[150px]'>
-            <img src={imgRobo} alt="Imagem de um robô " className='w-[600px] transform transition ease-in-out duration-1000 hover:translate-x-3' />
+            <img src={imgRobo} alt="Imagem de um robô " className='w-[600px] transform transition ease-in-out duration-1000 float-effect' />
             </div>
           
         
