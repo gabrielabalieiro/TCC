@@ -34,7 +34,7 @@ export function Nossoproduto() {
         
         <section className="py-20">
                 <div className='flex items-center'>
-                    <h2 className='text-purple text-1xl md:2xl lg:text-[48px] font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
+                    <h2 className='text-purple text-xl md:2xl lg:text-[48px] font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
                     <hr className='sm:w-[850px] w-[400px] border-purple' />
                 </div>
                 
@@ -43,7 +43,7 @@ export function Nossoproduto() {
 
                 <div className='flex justify-start sm:items-start '>
                 <div className='mr-8'>
-                <p className='font-topico text-purple text-1xl mb:2xl mb-5  mr-5 '>Guia de utilização</p>
+                <p className='font-topico text-purple text-xl mb:2xl mb-5  mr-5 '>Guia de utilização</p>
                 </div>
 
                 </div>
@@ -98,7 +98,7 @@ export function Nossoproduto() {
                  <section>
                     <div>
                         <div className='flex items-center'>
-                            <h1 className='text-purple text-1xl sm:2xl lg:text-[48px] font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
+                            <h1 className='text-purple text-xl sm:2xl lg:text-[48px] font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
                             <hr className='w-[850px] border-purple' />
                         </div>
                         
