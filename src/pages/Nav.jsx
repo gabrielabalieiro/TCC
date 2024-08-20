@@ -60,8 +60,9 @@ export default function Nav(){
             </div>
         </div>
 
-        <div className='md:hidden'>
-            <div>
+        <div className='md:hidden '>
+            <div className='flex space-x-44'>
+                <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto  my-2 " />
                 <ul className='group'>
                     <button className='flex'>
                         <img src={tresLinhas} alt=""/>

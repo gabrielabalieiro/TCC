@@ -27,8 +27,8 @@ export function Quemsomos() {
   return (
     <div>
       <Nav/>
-      <div className="py-8 px-44 mb-44">
-      <h1 className='text-5xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14 '>Desenvolvedores</h1>
+      <div className="py-8  mb-44 sm:px-44">
+      <h1 className='text-2xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14 sm:text-4xl sm:py-14'>Desenvolvedores</h1>
       
       <div>
             <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-44'/>

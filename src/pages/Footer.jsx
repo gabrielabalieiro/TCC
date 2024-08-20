@@ -10,7 +10,7 @@ import IconFace from '../assets/iconsRedes/faceIconAzul.svg'
 
 function Footer() {
   return (
-    <footer className="bg-purple py-8  items-center flex md:flex-col">
+    <footer className="bg-purple py-8 items-center sm:flex">
         <div className="container mx-auto ml-28 ">
             <div className="mb-4 md:mb-3.5">
                 <img src={logo} alt="Logo do site escrito Robô Kids" />
@@ -33,7 +33,7 @@ function Footer() {
 
         </div>
 
-        <div className='flex gap-16'>
+        <div className='flex flex-col gap-8 sm:flex sm:flex-row sm:gap-16 ml-28'>
             <div className='mt-8'> 
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/produto"}>Produto</Link>
@@ -46,7 +46,7 @@ function Footer() {
                 </div>
             
             </div>
-            <div className='mt-8'> 
+            <div className='sm:mt-8'> 
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/materiais"}>Materiais</Link>
                 </button>
@@ -58,7 +58,7 @@ function Footer() {
                 </div>
             
             </div>
-            <div className='mt-8'>
+            <div className='sm:mt-8'>
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/bibliografias"}>Bibliografia</Link>
                 </button>
@@ -69,7 +69,7 @@ function Footer() {
                 </div>
             
             </div>
-            <div className='mt-8 mr-16'>
+            <div className='sm:mt-8 mr-16'>
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/quemsomos"}>Somos</Link>
                 </button>
