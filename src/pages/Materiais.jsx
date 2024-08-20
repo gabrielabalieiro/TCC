@@ -30,7 +30,7 @@ export function Materiais() {
             <img src={imgSetaE} alt="" className='absolute left-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
         </div>
 
-        <div className='flex justify-center px-44 mb-44 gap-14 '>
+        <div className='flex justify-center px-44 mb-44 gap-14'>
             <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center ">
                 <img className="w-50 h-38 mb-4" src={imgSensor} alt="Sensor" />
                 <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Sensor</div>
@@ -75,15 +75,14 @@ export function Materiais() {
         <section>
             <div className='mb-44 '>
                 <div className='flex items-center'>
-                    <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Utilização</h2>
+                    <h2 className='text-purple font-titulo sm:text-3xl sm:px-44 sm:pr-12 text-2xl pr-10 pl-2'>Utilização</h2>
                     <hr className='w-[816px] border-purple' />
                 </div>
 
                 <div className=' mt-24 transform transition ease-in-out duration-1000 float-effect'>
-                    <p className='font-paragrafo text-right pr-80 translate-y-16 '>Display LCD Led</p>
-                        <img src={imgSetaL} alt="" className='mx-auto translate-y-11 pl-72' />
-                    <img src={imgCirculoMateriais} alt="Círculo de destaque do Display do robô" className=' absolute left-24 right-24  w-64 h-512 mx-auto' />
-                    <img src={imgRoboMateriais} alt="Robô da página de materiais" className="w-428 h-512 mx-auto "/>
+                    <p className='font-paragrafo text-right pr-80 translate-y-16 hidden sm:block hidden'>Display LCD Led</p>
+                    <img src={imgSetaL} alt="" className='mx-auto translate-y-11 pl-72 hidden sm:block hidden' />
+                    <img src={imgRoboMateriais} alt="Robô da página de materiais" className="sm:w-428 sm:h-512 mx-auto w-[350px] h-[400px]"/>
                 </div>
                 
             </div>
@@ -93,10 +92,10 @@ export function Materiais() {
         <section>
             <div>
                 <div className='flex items-center'>
-                    <h2 className='text-purple font-titulo text-2xl sm:text-3xl  px-44 pr-12 '>Valor final</h2>
-                    <hr className='w-[816px] border-purple' />
+                    <h2 className='text-purple font-titulo text-2xl sm:text-3xl  sm:px-44 sm:pr-12 pr-4 pl-2 '>Valor final</h2>
+                    <hr className='sm:w-[816px] w-[500px] border-purple' />
                 </div>
-                <p className='text-justify font-paragrafo px-44 py-6 mb-6'>O nosso projeto, além de ter um alto custo inicial, demanda um grande esforço de trabalho, por isso projetamos um valor inicial de 1.500,00 R$, levando em consideração todo o custo e desenvolvimento. Além disso, o projeto é altamente tecnológico e apresenta um diferencial significativo, incluindo um aplicativo que permite aos pais acompanhar a evolução da criança e um jogo divertido para a própria criança. Tudo isso é integrado com o robô, proporcionando um suporte completo ao cliente.
+                <p className='sm:px-44 sm:py-6 sm:mb-6 font-paragrafo text-justify mb-5 text-base sm:text-lg px-10 py-4'>O nosso projeto, além de ter um alto custo inicial, demanda um grande esforço de trabalho, por isso projetamos um valor inicial de 1.500,00 R$, levando em consideração todo o custo e desenvolvimento. Além disso, o projeto é altamente tecnológico e apresenta um diferencial significativo, incluindo um aplicativo que permite aos pais acompanhar a evolução da criança e um jogo divertido para a própria criança. Tudo isso é integrado com o robô, proporcionando um suporte completo ao cliente.
                 </p>
             </div>
         </section>
