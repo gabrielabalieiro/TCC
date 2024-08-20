@@ -92,7 +92,7 @@ export function Materiais() {
 
         <section>
             <div>
-                <div className='flex items-center mc-auto'>
+                <div className='flex items-center -my'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Valor final</h2>
                     <hr className='w-[816px] border-purple' />
                 </div>
