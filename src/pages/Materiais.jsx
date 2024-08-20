@@ -73,14 +73,14 @@ export function Materiais() {
         </section>
 
         <section>
-            <div className='mb-44 '>
+            <div className='sm:mb-44 mb-20 '>
                 <div className='flex items-center'>
                     <h2 className='text-purple font-titulo sm:text-3xl sm:px-44 sm:pr-12 text-xl pr-10 pl-10'>Utilização</h2>
-                    <hr className='w-[816px] border-purple' />
+                    <hr className='w-[780px] border-purple' />
                 </div>
 
-                <div className=' mt-24 transform transition ease-in-out duration-1000 float-effect'>
-                    <p className='font-paragrafo text-right pr-80 translate-y-16 hidden sm:block hidden'>Display LCD Led</p>
+                <div className=' mt-12 sm:mt-24 transform transition ease-in-out duration-1000 float-effect'>
+                    <p className='font-paragrafo text-right pr-80 translate-y-16 hidden sm:block hidden text-xl'>Display LCD Led</p>
                     <img src={imgSetaL} alt="" className='mx-auto translate-y-11 pl-72 hidden sm:block hidden' />
                     <img src={imgRoboMateriais} alt="Robô da página de materiais" className="sm:w-[428px] sm:h-[512px] w-[153px]  h-[215px] mx-auto"/>
                 </div>
