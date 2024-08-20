@@ -22,10 +22,10 @@ export function Bibliografias() {
 
             <div className='flex items-center mt-12 mb-6'>
                     <h2 className='text-purple text-xl sm:text-2xl  font-titulo my-14 font-normal whitespace-nowrap sm:ml-[160px] ml-0'>Fontes -artigos científicos</h2>
-                    <hr className='w-[100px] border-purple  sm:w-[780px] pr-[100-px] ml-12' />
+                    <hr className='w-[100px] border-purple  sm:w-[1000px] pr-[100-px] ml-12' />
             </div>
            
-           <div className='flex flex-col items-center px-44 mb-8 gap-4  sm:flex-row '>
+           <div className='flex flex-col items-center px-44 mb-24 gap-4  sm:flex-row pl-[330px] '>
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-2 flex-col items-center flex">
                 <a href="https://sol.sbc.org.br/index.php/ctrle/article/view/25805" target="_blank" rel=" noopener noreferrer">
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>
