@@ -12,7 +12,7 @@ export default function Nav(){
     <div>
         {/*header computador */}
         <div className="bg-white p-7 " >
-            <div className= "max-w-8xl mx-auto "> 
+            <div className= "max-w-8xl mx-auto lg:block hidden"> 
             <div className="flex justify-between items-center" >   
             <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto  my-2 " />
         
@@ -68,11 +68,11 @@ export default function Nav(){
                         <div className='hidden group-hover:block w-fit list-none rounded absolute'>
                             <ul>
                                 <img src="" alt="" />
-                                <li><Link to={"/"}>Home</Link></li>
-                                <li><Link to={"/produto"}>Produto</Link></li>
-                                <li><Link to={"/materiais"}>Materiais</Link></li>
-                                <li><Link to={"/bibliografias"}>Bibliografias</Link></li>
-                                <li><Link to={"/quemsomos"}>Quem somos?</Link></li>
+                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/"}>Home</Link></li>
+                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/produto"}>Produto</Link></li>
+                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/materiais"}>Materiais</Link></li>
+                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/bibliografias"}>Bibliografias</Link></li>
+                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/quemsomos"}>Quem somos?</Link></li>
                                 <button><Link to={"/login"}>Login</Link></button>
                                 <button><Link to={"/singup"}>Sing Up</Link></button>
                             </ul>

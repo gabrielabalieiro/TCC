@@ -10,8 +10,8 @@ import IconFace from '../assets/iconsRedes/faceIconAzul.svg'
 
 function Footer() {
   return (
-    <footer className="bg-purple py-8 flex items-center">
-        <div className="container mx-auto ml-28">
+    <footer className="bg-purple py-8  items-center flex md:flex-col">
+        <div className="container mx-auto ml-28 ">
             <div className="mb-4 md:mb-3.5">
                 <img src={logo} alt="Logo do site escrito Robô Kids" />
             </div>
@@ -33,7 +33,7 @@ function Footer() {
 
         </div>
 
-        <div className='flex gap-16 '>
+        <div className='flex gap-16'>
             <div className='mt-8'> 
                 <button className='font-paragrafo font-bold text-light-blue text-2xl no-underline hover:text-grey hover:underline'>
                     <Link to={"/produto"}>Produto</Link>
