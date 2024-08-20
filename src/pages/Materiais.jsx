@@ -73,7 +73,7 @@ export function Materiais() {
         </section>
 
         <section>
-            <div className='mb-24 '>
+            <div className='mb-44 '>
                 <div className='flex items-center'>
                     <h2 className='text-purple font-titulo text-3xl px-44 pr-12 '>Utilização</h2>
                     <hr className='w-[816px] border-purple' />
