@@ -98,7 +98,7 @@ export function Nossoproduto() {
                  <section>
                     <div>
                         <div className='flex items-center'>
-                            <h1 className='text-purple text-3xl font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
+                            <h1 className='text-purple text-3xl sm:text-[32px] md:text-[40px] lg:text-[48px] font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
                             <hr className='w-[850px] border-purple' />
                         </div>
                         
@@ -114,28 +114,28 @@ export function Nossoproduto() {
                             <div className="text-purple text-2xl font-normal font-titulo">Primeira Fase</div>
                         </div>
 
-                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
                             <div className="text-purple text-2xl font-normal font-titulo">Segunda Fase</div>
                         </div>
 
 
-                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
                             <div className="text-purple text-2xl font-normal font-titulo">Terceira Fase</div>
                         </div>
 
 
-                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
                             <div className="text-purple text-2xl font-normal font-titulo">Quarta Fase</div>
                         </div>
 
 
-                        <div className="w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-22 h-21" src={lupaRoxa} alt="Lupa Roxa"/></div>
                             <div className="text-purple text-2xl font-normal font-titulo">Fase Final</div>
