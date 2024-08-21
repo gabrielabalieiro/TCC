@@ -11,8 +11,8 @@ export function Login() {
   return (
     <body>
         <Nav/>
-        <main className='font-inter'>
-            <div className='flex justify-end p-6 gap-8'>
+        <main className='font-inter '>
+            <div className='flex justify-end p-6 gap-8  '>
                 <p className='text-gray '>Não tem uma conta?</p>
                 <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5  hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href=""></a>Sing up</button>
             </div>

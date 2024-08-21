@@ -29,4 +29,34 @@
 
   }
   
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 25%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  @keyframes cursor-disappear {
+    0% { border-color: #5C6898; }
+    100% { border-color: transparent; }
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid #5C6898; /* Cor do cursor */
+    animation: 
+      typing 2s steps(20, end), 
+      blink 0.75s step-end infinite,
+      cursor-disappear 2s steps(20, end) 2s forwards; /* Desaparece após a animação de digitação */
+    font-family: 'FontTitulo', sans-serif; /* Certifique-se de que a fonte é aplicada aqui */
+  }
+  
+  h1 {
+    color: #5C6898; /* Cor do texto */
+  }
+  
 

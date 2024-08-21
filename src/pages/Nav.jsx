@@ -17,39 +17,39 @@ export default function Nav(){
             <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto  my-2 " />
         
             <ul className= "text-sm flex space-x-9 " >
-                    <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button >
+                    <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:font-semibold '}>
+                        <button className='hover:underline'>
                             <Link to={"/"}>Home</Link>
                         </button>
                     </li>
                     <li className={location.pathname === "/produto" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button>
+                        <button className='hover:underline'>
                             <Link to={"/produto"}>Produto</Link>
                         </button>
                     </li>
                     <li className={location.pathname === "/materiais" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button>
+                        <button className='hover:underline'>
                             <Link to={"/materiais"}>Materias</Link>
                         </button>
                     </li >
                     <li className={location.pathname === "/bibliografias" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button >
+                        <button className='hover:underline'>
                             <Link to={"/bibliografias"}>Bibliografias</Link>
                         </button>
                     </li>
                     <li className={location.pathname === "/quemsomos" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button>
+                        <button className='hover:underline'>
                             <Link to={"/quemsomos"}>Quem somos?</Link>
                         </button>
                     </li>
 
                     <li className="text-purple font-semibold hover:font-semibold   border-solid border border-purple border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5">
-                        <button>
+                        <button className='hover:underline'>
                         <Link to={"/login"}>Login</Link>
                         </button>
                     </li>
                     <li className="text-white  font-normal hover:font-semibold border-solid border-2 bg-purple border-purple transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple  rounded px-5 ">
-                        <button>
+                        <button className='hover:underline'>
                             <Link to={"/singup"}>Sing Up</Link>
                         </button>
                     </li>
