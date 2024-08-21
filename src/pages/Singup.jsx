@@ -15,7 +15,7 @@ export function Singup() {
         <main className='font-inter'>
             <div className='flex justify-end p-6 gap-8 ml-10'>
                 <p className='text-gray '>Já tem uma conta?</p>
-                <button className='text-purple text-sm font-semibold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href="/login">Login</a></button>
+                <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href="/login">Login</a></button>
             </div>
 
             <div className='text-center mb-6 pl-[150px]'>

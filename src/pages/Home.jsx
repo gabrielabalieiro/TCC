@@ -26,7 +26,7 @@ export function Home() {
               Por meio da integração da tecnologia, as crianças podem se divertir enquanto aprendem, ao passo que os pais têm a oportunidade de monitorar o progresso de seus filhos.
             </p>
             <Link to="/produto">
-              <button className="font-topico px-6 py-3 w-32 bg-purple text-white rounded-lg border border-transparent transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple mb-8">
+              <button className="font-topico px-6 py-3 w-32 bg-purple text-white rounded-lg border border-transparent transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple mb-8 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200">
                 Veja mais
               </button>
             </Link>

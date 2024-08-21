@@ -32,7 +32,7 @@ export function Login() {
                 
                 
 
-                <div className='flex '>
+                <div className=''>
                     <label htmlFor="email" className='block mt-4 mb-2'>E-mail:</label>
                     <input type="text" placeholder='ex:robokids@gmail.com' className='block w-full p-2 border-solid border-2 border-purple rounded'/>
                 </div>

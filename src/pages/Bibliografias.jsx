@@ -25,7 +25,7 @@ export function Bibliografias() {
                     <hr className='w-[100px] border-purple  sm:w-[1000px] pr-[100-px] ml-12' />
             </div>
            
-           <div className='flex flex-col items-center px-44 mb-24 gap-4  sm:flex-row pl-[330px] '>
+           <div className='flex flex-col items-center px-44 mb-24 gap-3  sm:flex-row pl-[330px] '>
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-2 flex-col items-center flex">
                 <a href="https://sol.sbc.org.br/index.php/ctrle/article/view/25805" target="_blank" rel=" noopener noreferrer">
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>

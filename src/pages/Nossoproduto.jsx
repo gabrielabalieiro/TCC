@@ -43,7 +43,7 @@ export function Nossoproduto() {
 
                 <div className='flex justify-start sm:items-start '>
                 <div className='mr-8'>
-                <p className='font-topico text-purple text-xl mb:2xl mb-5  mr-5 '>Guia de utilização</p>
+                <p className='font-topico text-purple  md:2xl lg:text-[30px] mb-5  mr-5 '>Guia de utilização</p>
                 </div>
 
                 </div>
@@ -114,7 +114,7 @@ export function Nossoproduto() {
                             <div className="text-white text-xl sm:text-2xl font-normal font-titulo ">Primeira Fase</div>
                         </div>
 
-                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-4 bg-white transition-opacity duration-300 hover:opacity-50">
+                        <div className="hidden w-56 h-48 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col items-center justify-between p-3 bg-white transition-opacity duration-300 hover:opacity-50">
                             <div className="flex flex-grow justify-center items-center">
                             <img className="w-21 h-20" src={lupaRoxa} alt="Lupa Roxa"/></div>
                             <div className="text-purple text-2xl font-normal font-titulo">Segunda Fase</div>
@@ -150,7 +150,7 @@ export function Nossoproduto() {
                             </div>
 
                             <div className='w-full max-w-[600px] flex flex-col items-center'>
-                                <img src={imgPrimeiraFase} alt="arduino"className='sm:absolute sm:right-44 -translate-y-14 sm:w-72 sm:h-512 mt-4 w-72 h-auto ' />
+                                <img src={imgPrimeiraFase} alt="arduino"className='sm:absolute sm:right-[290px] -translate-y-14 sm:w-72 sm:h-512 mt-4 w-72 h-auto  ' />
                                 <p className="font-paragrafo text-lg  text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
                                 </p>
                             </div>
