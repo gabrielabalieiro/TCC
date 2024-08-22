@@ -22,7 +22,7 @@ export function Nossoproduto() {
         <section className="p-8 rounded-lg max-w-6xl w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
             <div>
-                <h1 className='text-purple text-4xl sm:text-[32px] md:text-[40px] lg:text-[48px] text-center sm:text-start font-semibold font-titulo mb-10 '>Robô Kids</h1>
+                <h1 className='text-purple text-3xl sm:text-[32px] md:text-[40px] lg:text-[48px] text-center sm:text-start font-semibold font-titulo mb-10 '>Robô Kids</h1>
                 <p className="font-paragrafo text-justify mb-5 text-base sm:text-lg">O projeto consiste em um protótipo desenvolvido através da plataforma Arduíno, com comunicação via Wi-Fi e uma tela touch screen, a partir dela, a criança conseguirá interagir com o Robô Kids, que irá realizar perguntas sobre a matéria de matemática a partir da idade da criança, com isso conseguirá selecionar a resposta da pergunta realizada.
                 </p>
                 <p className="font-paragrafo text-justify mb-5 text-base sm:text-lg" > Além disso, um aplicativo ligado ao robô, lista todos os acertos e erros conforme as perguntas realizadas pelo robô para aprendizagem, com o objetivo de ajudar e facilitar o uso aos pais para que possam acompanhar o desenvolvimento educativo de seu filho, podendo observar através de dados quais são as dificuldades que a criança apresenta na matéria de matemática. E o mais importante para que ajude as crianças a aprenderem e adquirirem mais conhecimentos</p>
@@ -34,7 +34,7 @@ export function Nossoproduto() {
         
         <section className="py-20">
                 <div className='flex items-center'>
-                    <h2 className='text-purple text-xl md:2xl lg:text-[48px] font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
+                    <h2 className='text-purple sm:text-3xl text-xl font-titulo my-14 font-normal whitespace-nowrap mr-12'>Funcionamento</h2>
                     <hr className='sm:w-[850px] w-[400px] border-purple' />
                 </div>
                 
@@ -98,7 +98,7 @@ export function Nossoproduto() {
                  <section>
                     <div>
                         <div className='flex items-center'>
-                            <h1 className='text-purple text-xl sm:2xl lg:text-[48px] font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
+                            <h1 className='text-purple  sm:text-3xl text-xl font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
                             <hr className='w-[850px] border-purple' />
                         </div>
                         
@@ -151,7 +151,7 @@ export function Nossoproduto() {
 
                             <div className='w-full max-w-[600px] flex flex-col items-center'>
                                 <img src={imgPrimeiraFase} alt="arduino"className='sm:absolute sm:right-[290px] -translate-y-14 sm:w-72 sm:h-512 mt-4 w-72 h-auto  ' />
-                                <p className="font-paragrafo text-lg  text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
+                                <p className="font-paragrafo text-base sm:text-lg  text-justify"> A primeira fase na produção do robô é a decisão das peças e componentes que serão utilizados. Essa etapa é crucial para definir a base do projeto, garantindo que todos os componentes escolhidos sejam compatíveis entre si e atendam aos requisitos do robô.
                                 </p>
                             </div>
                         </div>

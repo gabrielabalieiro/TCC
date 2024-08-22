@@ -15,7 +15,7 @@ export function Home() {
           <img 
             src={imgRobo} 
             alt="Imagem de um Robô na cor branca" 
-            className="sm:w-[557px] sm:h-[666px] w-[133px] h-[172px] ml-12 sm:ml-32 mr-8 transform transition ease-in-out duration-1000 float-effect" 
+            className="sm:w-[557px] sm:h-[666px] w-[133px] h-[172px] ml-12 sm:ml-32 mr-8 font-titulo transform transition ease-in-out duration-1000 float-effect" 
           />
           <div className="flex flex-col items-center sm:items-start">
             <h1 className="font-semibold text-purple mb-1.5 text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] xl:text-[56px] font-titulo text-center sm:text-start typing-effect ">

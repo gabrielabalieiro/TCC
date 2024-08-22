@@ -27,7 +27,7 @@ export function Quemsomos() {
   return (
     <div>
       <Nav/>
-      <div className="py-8  mb-44 sm:px-44">
+      <div className="py-8  mb-16 sm:mb-44 sm:px-44">
       <h1 className='text-2xl font-semibold text-purple mb-4 font-normal font-titulo text-center p-14 sm:text-4xl sm:py-14'>Desenvolvedores</h1>
       
       <div>
@@ -35,7 +35,7 @@ export function Quemsomos() {
             <img src={imgSetaE} alt="" className='absolute left-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-44'/>
       </div>
 
-      <div className='flex space-x-9 justify-center mb-8 py-9 '>
+      <div className='flex space-x-9 justify-center sm:mb-8 py-9 '>
         <div className=' border-2 border-purple rounded-2xl p-2 text-center  overflow-hidden  flex flex-col items-center bg-violet shadow-2xl shadow-violet-500/50  '>
           <img src={fotoLee} alt="Leticia foto" className="rounded-full  mx-auto mb-8 border-2 border-purple "/>
           

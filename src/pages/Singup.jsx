@@ -13,10 +13,8 @@ export function Singup() {
     <body>
         <Nav/>
         <main className='font-inter'>
-            <div className='flex justify-end p-6 gap-8 ml-10'>
-                <p className='text-gray '>Já tem uma conta?</p>
-                <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href="/login">Login</a></button>
-            </div>
+        <p className='text-gray '>Já tem uma conta?</p>
+        <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href="/login">Login</a></button>
 
             <div className='text-center mb-6 pl-[150px]'>
             <img src={imgRobo} alt="Imagem de um robô " className='w-[600px] transform transition ease-in-out duration-1000 float-effect' />
@@ -34,7 +32,7 @@ export function Singup() {
                 
                   
                 
-                <div>
+                <div className='border-2 border-purple-500 rounded'>
                     <label htmlFor="email" className='block mt-4 mb-2'>Nome:</label>
                     <input type="text" placeholder='ex:robokids@gmail.com' className='block w-full p-2 border-solid border-2 border-purple rounded'/>
                 </div>
