@@ -12,7 +12,7 @@ export function Bibliografias() {
       <section className='p-4 '>
             <div>
                 <h1 className="text-purple text-2xl sm:px-44 py-8 font-semibold text-center sm:text-start font-titulo md:text-4xl  mb-10">Bibliografias</h1>
-                <p className="font-paragrafo text-justify text-sm sm:px-44 sm:py-38 sm:text-lg mb-5">A ciência tem mostrado o quão é importante a utilização de meios que modifiquem o ensino e a aprendizagem através do uso da tecnologia, instiguem e criem situações provocantes, possam cativar a atenção das crianças, tornando o processo de aprendizagem mais envolvente e interessante partindo desse princípio, surgiu a ideia do protótipo do Robô Kids.
+                <p className="font-paragrafo text-justify text-base sm:px-44 sm:py-38 sm:text-lg mb-5">A ciência tem mostrado o quão é importante a utilização de meios que modifiquem o ensino e a aprendizagem através do uso da tecnologia, instiguem e criem situações provocantes, possam cativar a atenção das crianças, tornando o processo de aprendizagem mais envolvente e interessante partindo desse princípio, surgiu a ideia do protótipo do Robô Kids.
                 <br/><br/>
                 A tecnologia é um meio de aprendizagem inovador e eficaz, na qual a criança,  além se de se divertir, está aprendendo e progredindo os seus conhecimentos.
                 <br/><br/>

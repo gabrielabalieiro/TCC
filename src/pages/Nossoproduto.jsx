@@ -22,7 +22,7 @@ export function Nossoproduto() {
         <section className="p-8 rounded-lg max-w-6xl w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
             <div>
-                <h1 className='text-purple text-3xl sm:text-[32px] md:text-[40px] lg:text-[48px] text-center sm:text-start font-semibold font-titulo mb-10 '>Robô Kids</h1>
+                <h1 className='text-purple text-2xl md:text-4xl text-center sm:text-start font-semibold font-titulo mb-10 '>Robô Kids</h1>
                 <p className="font-paragrafo text-justify mb-5 text-base sm:text-lg">O projeto consiste em um protótipo desenvolvido através da plataforma Arduíno, com comunicação via Wi-Fi e uma tela touch screen, a partir dela, a criança conseguirá interagir com o Robô Kids, que irá realizar perguntas sobre a matéria de matemática a partir da idade da criança, com isso conseguirá selecionar a resposta da pergunta realizada.
                 </p>
                 <p className="font-paragrafo text-justify mb-5 text-base sm:text-lg" > Além disso, um aplicativo ligado ao robô, lista todos os acertos e erros conforme as perguntas realizadas pelo robô para aprendizagem, com o objetivo de ajudar e facilitar o uso aos pais para que possam acompanhar o desenvolvimento educativo de seu filho, podendo observar através de dados quais são as dificuldades que a criança apresenta na matéria de matemática. E o mais importante para que ajude as crianças a aprenderem e adquirirem mais conhecimentos</p>
@@ -53,7 +53,7 @@ export function Nossoproduto() {
                 <div className='flex items-start space-x-4'>
                     <img src={numeroUm} alt="número 1" className='w-10 h-10' />
                     <div>
-                    <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 1</p>
+                    <p className='font-paragrafo text-lg sm:text-xl font-medium text-purple'>Passo 1</p>
                     <p className='text-grey-popup font-topico text-base sm:text-x1'>Na tela inicial, escolha entre diferentes modos de aprendizado (por exemplo, “Números Básicos”, “Operações Simples”, etc.). O robô apresentará questões matemáticas adequadas à faixa etária da criança.</p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export function Nossoproduto() {
                 <div className='flex items-start space-x-4'>
                     <img src={numeroDois} alt="número 2" className='w-10 h-10' />
                     <div>
-                    <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 2</p>
+                    <p className='font-paragrafo text-lg sm:text-xl font-medium text-purple'>Passo 2</p>
                     <p className='text-grey-popup font-topico'>A criança pode tocar nos botões na tela para responder às perguntas. O robô fornecerá feedback imediato sobre cada resposta, incentivando o aprendizado e a correção de erros.</p>
                     </div>
                     </div>
@@ -69,7 +69,7 @@ export function Nossoproduto() {
                 <div className='flex items-start space-x-4'>
                     <img src={numeroTres} alt="número 3" className='w-10 h-10' />
                     <div>
-                    <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 3</p>
+                    <p className='font-paragrafo text-lg sm:text-xl font-medium text-purple'>Passo 3</p>
                     <p className='text-grey-popup font-topico'>Baixe o aplicativo complementar no smartphone ou tablet. Use o código de sincronização exibido no robô para conectar o perfil da criança ao aplicativo. Isso permitirá que os pais acompanhem o desenvolvimento e as conquistas da criança em tempo real.</p>
                     </div>
                     </div>
@@ -78,7 +78,7 @@ export function Nossoproduto() {
                 <div className='flex items-start space-x-4'>
                     <img src={numeroQuatro} alt="número 4" className='w-10 h-10' />
                     <div>
-                    <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 4</p>
+                    <p className='font-paragrafo text-lg sm:text-xl font-medium text-purple'>Passo 4</p>
                     <p className='text-grey-popup font-topico'>Para garantir um uso saudável do robô, os pais podem estabelecer limites de tempo diários ou semanais para as sessões de aprendizado.</p>
                     </div>
                     
@@ -87,7 +87,7 @@ export function Nossoproduto() {
                 <div className='flex items-start space-x-4'>
                     <img src={numeroCinco} alt="número 5" className='w-10 h-10'/>
                     <div>
-                    <p className='font-paragrafo text-[35px]font-medium text-purple'>Passo 5</p>
+                    <p className='font-paragrafo text-lg sm:text-xl font-medium text-purple'>Passo 5</p>
                     <p className='text-grey-popup font-topico'>O robô também pode enviar relatórios semanais para o aplicativo dos pais, sugerindo atividades ou áreas para fortalecer o aprendizado da criança, baseado no desempenho observado.</p>
                     </div>
                 </div>

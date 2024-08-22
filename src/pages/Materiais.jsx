@@ -23,7 +23,7 @@ export function Materiais() {
         <div>
         <section>
             <div>
-                <h1 className="text-2xl  md:text-5xl font-semibold text-purple mb-4  font-titulo text-center p-14">Materiais</h1>
+                <h1 className="text-2xl md:text-4xl font-semibold text-purple mb-4  font-titulo text-center p-14">Materiais</h1>
         </div>
         <div>
             <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
@@ -95,7 +95,7 @@ export function Materiais() {
                     <h2 className='text-purple font-titulo text-xl sm:text-3xl  sm:px-44 sm:pr-12 pr-4 pl-10  '>Valor final</h2>
                     <hr className='sm:w-[1000px] w-[500px] border-purple' />
                 </div>
-                <p className='sm:px-44 sm:py-6 sm:mb-6 font-paragrafo text-justify mb-5  sm:text-lg text-sm px-10 py-4'>O nosso projeto, além de ter um alto custo inicial, demanda um grande esforço de trabalho, por isso projetamos um valor inicial de 1.500,00 R$, levando em consideração todo o custo e desenvolvimento. Além disso, o projeto é altamente tecnológico e apresenta um diferencial significativo, incluindo um aplicativo que permite aos pais acompanhar a evolução da criança e um jogo divertido para a própria criança. Tudo isso é integrado com o robô, proporcionando um suporte completo ao cliente.
+                <p className='sm:px-44 sm:py-6 sm:mb-6 font-paragrafo text-justify mb-5  sm:text-lg text-base px-10 py-4'>O nosso projeto, além de ter um alto custo inicial, demanda um grande esforço de trabalho, por isso projetamos um valor inicial de 1.500,00 R$, levando em consideração todo o custo e desenvolvimento. Além disso, o projeto é altamente tecnológico e apresenta um diferencial significativo, incluindo um aplicativo que permite aos pais acompanhar a evolução da criança e um jogo divertido para a própria criança. Tudo isso é integrado com o robô, proporcionando um suporte completo ao cliente.
                 </p>
             </div>
         </section>
