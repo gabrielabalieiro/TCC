@@ -10,7 +10,6 @@ export default function Nav(){
 
   return (
     <div>
-        {/*header computador */}
         <div className="bg-white p-7 " >
             <div className= "max-w-8xl mx-auto lg:block hidden"> 
             <div className="flex justify-between items-center" >   

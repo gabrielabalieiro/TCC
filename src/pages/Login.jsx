@@ -13,7 +13,7 @@ export function Login() {
         <Nav />
         <main className='font-inter min-h-screen flex flex-col md:flex-row items-center justify-center p-6'>
           
-          <div className='absolute top-20 right-8 mt-4 flex items-center space-x-2'>
+          <div className='absolute top-20 right-1.5 sm:right-8 mt-8 sm:mt-4 flex items-center space-x-2'>
             <p className='text-gray'>Não tem uma conta? </p>
             <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple'>
               <a href="/singup">Sing Up</a>
@@ -36,9 +36,8 @@ export function Login() {
 
             <div className='max-w-md mx-auto md:mx-0'>
               <form>
-
                 <div className='mb-4'>
-                  <label htmlFor="email" className='block text-sm mb-2'>E-mail:</label>
+                  <label htmlFor="email" className='block text-sm sm:text-xl mb-2'>E-mail ou User:</label>
                   <input
                     type="email"
                     id="email"
@@ -48,7 +47,7 @@ export function Login() {
                 </div>
 
                 <div className='mb-6'>
-                  <label htmlFor="password" className='block text-sm mb-2'>Senha:</label>
+                  <label htmlFor="password" className='block text-sm sm:text-xl mb-2'>Senha:</label>
                   <input
                     type="password"
                     id="password"
@@ -59,13 +58,13 @@ export function Login() {
 
                 <button
                   type="submit"
-                  className='w-full text-white bg-purple font-semibold border-2 border-purple rounded-lg py-3 hover:bg-white hover:text-purple hover:border-purple transition'> Criar
+                  className=' text-white bg-purple font-semibold border-2 border-purple rounded-lg py-3 hover:bg-white hover:text-purple hover:border-purple transition  px-6 w-32'> Login
                 </button>
               </form>
 
              
               <div className='mt-10'>
-                <div className='flex items-center space-x-6'>
+                <div className='flex items-center justify-center sm:justify-normal space-x-6'>
                   <p className='text-gray text-lg'>Entre com</p>
                   <div className='flex space-x-4'>
                     <img
