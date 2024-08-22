@@ -10,6 +10,7 @@ export default function Nav(){
 
   return (
     <div>
+
         <div className="bg-white p-7 " >
             <div className= "max-w-8xl mx-auto lg:block hidden"> 
             <div className="flex justify-between items-center" >   
@@ -61,7 +62,7 @@ export default function Nav(){
 
         <div className='md:hidden '>
             <div className='flex justify-between  '>
-                <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto my-2 " />
+                <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto my-2 ml-4" />
                 <ul className='group'>
                     <button className='relative flex '>
                         <img src={tresLinhas} alt=""/>

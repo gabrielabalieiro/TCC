@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import Footer from "./Footer"
+import { Link } from 'react-router-dom'
 
 import logoSite from '../assets/logoSite.svg'
 import iconApple from '../assets/iconsRedes/iconLogins/iconApple.svg'
@@ -10,58 +11,97 @@ import imgRobo from '../assets/roboImg.svg'
 
 export function Singup() {
   return (
-    <body>
-        <Nav/>
-        <main className='font-inter'>
-        <p className='text-gray '>Já tem uma conta?</p>
-        <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple mr-[50px]'> <a href="/login">Login</a></button>
-
-            <div className='text-center mb-6 pl-[150px]'>
-            <img src={imgRobo} alt="Imagem de um robô " className='w-[600px] transform transition ease-in-out duration-1000 float-effect' />
-            </div>
+    <>
+        <Nav />
+        <main className='font-inter min-h-screen mt-14 mb-12 sm:mt-1 sm:mb-1 flex flex-col md:flex-row items-center justify-center p-6'>
           
-        
-                <div className='text-center -translate-y-[650px] pl-[80px]'>
-                    <h1 className='font-singUp  mb-4 text-center text-2xl pl-[0] pr-[370px] '>Bem vindo ao</h1>
-                    <img src={logoSite} alt="Logo da marca Robô Kids" className='flex justify-center mr-10 pl-[810px] -translate-y-14'/>
-                    </div>
-                <p className='text-gray  my-4 text-base pl-[730px] -translate-y-[720px] mt-8'>Crie a sua conta:</p>
-                
-                <div className='max-w-sm mx-auto -translate-y-[700px] ml-[730px]'>
-                
-                
-                  
-                
-                <div className='border-2 border-purple-500 rounded'>
-                    <label htmlFor="email" className='block mt-4 mb-2'>Nome:</label>
-                    <input type="text" placeholder='ex:robokids@gmail.com' className='block w-full p-2 border-solid border-2 border-purple rounded'/>
+          <div className='absolute top-20 right-2 sm:right-8 mt-8 sm:mt-4 flex items-center space-x-2'>
+            <p className='text-gray'>Já tem uma conta?</p>
+            <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple'>
+            <Link to="/login">Login</Link>
+            </button>
+          </div>
+  
+          <div className='flex-shrink-0 mb-8 md:mb-0 md:mr-16'>
+            <img
+              src={imgRobo}
+              alt="Imagem de um robô"
+              className='md:w-[600px] w-[300px] transform transition-transform duration-1000 animate-flutter'
+            />
+          </div>
+
+          <div className='md:ml-8 w-full md:w-auto px-4 md:px-0 '>
+            <h1 className='text-3xl text-black md:text-4xl text-center md:text-left font-singUp'>
+              Bem vindo ao Robô <span className='text-purple font-titulo'>Kids</span>
+            </h1>
+            <p className='text-gray  mt-4 mb-12 text-center md:text-left text-lg md:text-xl'>Crie a sua conta:</p>
+
+            <div className='max-w-md mx-auto md:mx-0'>
+              <form>
+                <div className='mb-4'>
+                  <label htmlFor="name" className='block text-sm sm:text-xl mb-2'>Nome:</label>
+                  <input
+                    type="name"
+                    id="name"
+                    placeholder='ex: Nome de usuário'
+                    className='block w-full p-3 border-2 border-purple rounded'
+                  />
                 </div>
 
-
-                <div>
-                    <label htmlFor="email" className='block mt-4 mb-2'>E-mail ou User:</label>
-                    <input type="text" placeholder='ex:robokids@gmail.com' className='block w-full p-2 border-solid border-2 border-purple rounded'/>
+                <div className='mb-4'>
+                  <label htmlFor="email" className='block text-sm sm:text-xl mb-2'>E-mail:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder='ex: robokids@gmail.com'
+                    className='block w-full p-3 border-2 border-purple rounded'
+                  />
                 </div>
 
-                <div>
-                    <label htmlFor="password" className='block mt-4 mb-2 text-base'>Senha:</label>
-                    <input type="text" placeholder='********' className='block w-full p-2 border-solid border-2 border-purple rounded ' />
+                <div className='mb-6'>
+                  <label htmlFor="password" className='block text-sm sm:text-xl mb-2'>Senha:</label>
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder='********'
+                    className='block w-full p-3 border-2 border-purple rounded'
+                  />
                 </div>
-                
 
-                <div className='w-full py-2px-4 pt-8'>
-                    <button className='text-white bg-purple font-semibold border-solid border-2 border-indigo-500 rounded-lg px-7 hover:bg-white hover:text-purple hover:border-purple'>Login</button>
-                </div>
+                <button
+                  type="submit"
+                  className=' text-white bg-purple font-semibold border-2 border-purple rounded-lg py-3 hover:bg-white hover:text-purple hover:border-purple transition  px-6 w-32'> Criar
+                </button>
+              </form>
 
-                <div className='flex justify-center space-x-6 mt-10 mr-[130px] '>
-                    <p className='text-gray mb-10 p-3 px-0 '>Entre com</p>
-                    <img src={iconGoogle} alt="Logo do Google" className='mr-4 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110' />
-                    <img src={iconFace} alt="Logo do Facebook" className='mr-4 mb-10 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110' />
-                    <img src={iconApple} alt="Logo da Apple" className='mr-4 mb-12 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-110'/>
+             
+              <div className='mt-10'>
+                <div className='flex items-center justify-center sm:justify-normal space-x-6'>
+                  <p className='text-gray text-lg'>Crie uma conta com</p>
+                  <div className='flex space-x-4'>
+                    <img
+                      src={iconGoogle}
+                      alt="Logo do Google"
+                      className='cursor-pointer w-8 h-8 transition-transform duration-200 ease-in-out transform hover:scale-110'
+                    />
+                    <img
+                      src={iconFace}
+                      alt="Logo do Facebook"
+                      className='cursor-pointer w-8 h-8 transition-transform duration-200 ease-in-out transform hover:scale-110'
+                    />
+                    <img
+                      src={iconApple}
+                      alt="Logo da Apple"
+                      className='cursor-pointer w-8 h-8 transition-transform duration-200 ease-in-out transform hover:scale-110'
+                    />
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          
         </main>
-        <Footer/>
-    </body>
+        <Footer />
+      </>
   )
 }

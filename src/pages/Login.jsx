@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
+import { Link } from 'react-router-dom'
 import logoSite from '../assets/logoSite.svg';
 import iconApple from '../assets/iconsRedes/iconLogins/iconApple.svg';
 import iconFace from '../assets/iconsRedes/iconLogins/iconFaceColorido.svg';
@@ -11,12 +12,12 @@ export function Login() {
     return (
       <>
         <Nav />
-        <main className='font-inter min-h-screen flex flex-col md:flex-row items-center justify-center p-6'>
+        <main className='font-inter min-h-screen mt-14 mb-12 sm:mt-1 sm:mb-1 flex flex-col md:flex-row items-center justify-center p-6'>
           
-          <div className='absolute top-20 right-1.5 sm:right-8 mt-8 sm:mt-4 flex items-center space-x-2'>
+          <div className='absolute top-20 right-2 sm:right-8 mt-8 sm:mt-4 flex items-center space-x-2'>
             <p className='text-gray'>Não tem uma conta? </p>
             <button className='text-purple text-sm font-bold border-solid border-2 border-indigo-500 rounded px-5 hover:bg-purple hover:text-white hover:border-purple'>
-              <a href="/singup">Sing Up</a>
+              <Link to="/singup">Sing Up</Link>
             </button>
           </div>
   
