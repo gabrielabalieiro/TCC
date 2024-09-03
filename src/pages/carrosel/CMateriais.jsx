@@ -38,15 +38,47 @@ export default function CMateriais() {
           className="mySwiper"
         >
           <SwiperSlide>
-          <img src="https://s2-redeglobo.glbimg.com/F3QNY5MHcKKry3bzLWFx71pBh8Y=/0x0:1600x2162/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2020/C/6/uPZBtBTTKTWAM1Rc8IFQ/infografico-robotica-e-educacao.png" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl sm:ml-24 ml-28" />
+            <img src={Bateria} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-          <img src="https://www.japanhousesp.com.br/sites/japanhouse.com.saopaulo/files/2021-01/robo_1080_port.png" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl sm:ml-24 ml-28" />
+            <img src={AltoFalante} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-          <img src="https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/d7433267540ff8105982df385110cde1/thumb_1200_1698.png" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl sm:ml-24 ml-28" />
+            <img src={Amplificador} alt="" />
           </SwiperSlide>
-          {/* Adicione mais slides conforme necessário */}
+          <SwiperSlide>
+            <img src={Conector} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={DisplayIPS} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={DisplayLCD} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Jumperers} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Leonardo} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Mineprotoboard} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Modulo} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Protoboard} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Sensor} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Servo} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Uno} alt="" />
+          </SwiperSlide>
         </Swiper>
       )
 }
