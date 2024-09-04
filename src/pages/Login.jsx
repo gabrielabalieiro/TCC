@@ -38,7 +38,7 @@ export function Login() {
             setTimeout(() => {
                 setLoading(false);
                 setMostrarMensagemSucesso(false);
-                navigate('/home');
+                navigate(to='/');
             }, 3000);
         } else {
             alert('Por favor, preencha todos os campos.');
@@ -198,7 +198,7 @@ export function Login() {
                       placeholder='Senha'
                       className='w-full p-3 border-2 border-gray-300 rounded'
                     />
-                    <button type="submit" className='hover:underline bg-gray-200 border border-gray-300 text-gray-700 py-2 px-4 rounded w-full'>
+                    <button type="submit" className='hover:bg-cyan-600  hover:underline bg-purplebg-gray-200 border border-gray-300 text-gray-700 py-2 px-4 rounded w-full'>
                       Entrar
                     </button>
                   </form>

@@ -99,3 +99,36 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+/* Popup geral */
+.popup {
+  width: 90%;
+  max-width: 400px;
+}
+
+.popup-button {
+  color: gray;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.popup-button:hover {
+  color: #333;
+}
+
+/* Borda dos popups */
+.border-google {
+  border-color: #ff9946;
+}
+
+.border-facebook {
+  border-color: #0d58b9;
+}
+
+.border-apple {
+  border-color: #000000;
+}
+
