@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Footer from "./Footer"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import Carossel from './carrosel/CCards.jsx'
 
 
 import IconInsta from '../assets/iconsRedes/iconInstaDesenvolve.svg'
@@ -85,6 +86,7 @@ export function Quemsomos() {
           </div>
         </div>
       </div>
+      <Carossel/>
     </div>
     <Footer/>
     </div>
