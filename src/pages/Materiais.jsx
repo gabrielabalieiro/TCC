@@ -1,9 +1,11 @@
 import {Swiper, SwiperSlide} from 'swiper/react'
 
 
+
 import React from 'react'
 import Nav from './Nav'
 import Footer from "./Footer"
+import Carossel from './carrosel/CMateriais'
 
 import imgRoboMateriais from '../assets/iconsRedes/robo_materiais.svg'
 import imgCirculoMateriais from '../assets/iconsRedes/circulo_materiais.svg'
@@ -16,59 +18,23 @@ import imgSetaL from '../assets/iconsRedes/setalcd.svg'
 import imgBols from '../assets/iconsRedes/bols_material.svg'
 import imgBols2 from '../assets/iconsRedes/bols_branca.svg'
 
+
 export function Materiais() {
   return (
     <div>
         <Nav/>
         <div>
-        <section>
+        <section className='mb-20'>
             <div>
                 <h1 className="text-2xl md:text-4xl font-semibold text-purple mb-4  font-titulo text-center p-14">Materiais</h1>
         </div>
-        <div>
-            <img src={imgSetaD} alt="" className='absolute right-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
-            <img src={imgSetaE} alt="" className='absolute left-20 transition-transform duration-300 ease-in-out hover:scale-110 translate-y-36'/>
-        </div>
-
-        <div className='flex justify-center px-44 mb-44 gap-14'>
-            <div className="w-68 h-88 rounded-lg border-2 border-purple font-sans p-4 flex flex-col items-center ">
-                <img className="w-50 h-38 mb-4" src={imgSensor} alt="Sensor" />
-                <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Sensor</div>
-                <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Captar movimento</div>
-                <div className="w-56 text-center text-gray text-lg font-paragrafo translate-y-8">R$ 11,00</div>
-                <div className="w-30 h-30 bg-gray-300 mt-4"></div>
-            </div>
-
-            <div className="hidden w-68 h-88 rounded-lg border-2 border-purple overflow-hidden sm:flex flex-col font-sans p-4 flex flex-col items-center">
-                <img className="w-50 h-38 mb-4" src={imgArduino} alt="Arduino" />
-                <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Arduino</div>
-                <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Desenvolvimento de projetos eletrônicos</div>
-                <div className="w-56 text-center text-gray text-lg font-paragrafo">R$ 48,00</div>
-                <div className="w-30 h-30 bg-gray-300 mt-4"></div>
-            </div>
-
-            <div className="hidden w-68 h-88 rounded-lg border-2 border-purple overflow-hidden  sm:flex font-sans p-4 flex flex-col items-center ">
-                <img className="w-50 h-38 mb-4" src={imgMotor} alt="Motor" />
-                <div className="w-56 text-center text-purple text-2xl font-semibold font-titulo mb-2">Motor</div>
-                <div className="w-56 text-center text-black text-lg font-paragrafo mb-2">Execulta movimentos progamados</div>
-                <div className="w-56 text-center text-gray text-lg font-paragrafo">R$ 12,00</div>
-                <div className="w-30 h-30 bg-gray-300 mt-4"></div>
-            </div>
-
-        </div>
         
-            <div className='mb-24 flex justify-center gap-3 -translate-y-12 '>
-                <img src={imgBols} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-                <img src={imgBols2} alt="" className='hover:scale-110 '/>
-
-            </div>
+        <div className='flex justify-center items-center'>
+            <Carossel/>
+        </div>
+       
+        
+            
 
         </section>
 

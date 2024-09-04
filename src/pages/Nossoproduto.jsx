@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import Footer from "./Footer"
 import CProduto from './carrosel/CProduto'
+import '../customSwiper.css'
 
 import numeroUm from '../assets/iconsRedes/iconsNumero/iconUm.svg'
 import numeroDois from '../assets/iconsRedes/iconsNumero/iconDois.svg'

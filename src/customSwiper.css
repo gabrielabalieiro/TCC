@@ -7,3 +7,20 @@
     background-color: #fff; /* Cor da bolinha ativa */
     opacity: 1;
   }
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-next {
+  right: 10px; /* Ajuste conforme necessário */
+}
+
+.swiper-button-prev {
+  left: 10px; /* Ajuste conforme necessário */
+}
+
