@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './Footer';
@@ -12,6 +12,7 @@ import imgRobo from '../assets/roboImg.svg';
 export function Login() {
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const [mostrarSenha, setMostrarSenha] = useState(false);
     const [mostrarMensagemSucesso, setMostrarMensagemSucesso] = useState(false);
     const navigate = useNavigate();
 
@@ -23,12 +24,17 @@ export function Login() {
 
             setTimeout(() => {
                 setMostrarMensagemSucesso(false);
-                navigate('/Home');
             }, 2000);
         } else {
             alert('Por favor, preencha todos os campos.');
         }
     };
+
+    useEffect(() => {
+        if (mostrarMensagemSucesso) {
+            navigate('/home');
+        }
+    }, [mostrarMensagemSucesso, navigate]);
 
     return (
       <>
@@ -73,13 +79,24 @@ export function Login() {
                 <div className='mb-6'>
                   <label htmlFor="senha" className='block text-sm sm:text-xl mb-2'>Senha:</label>
                   <input
-                    type="password"
+                    type={mostrarSenha ? "text" : "password"}
                     id="senha"
                     value={senha}
                     onChange={(e) => setSenha(e.target.value)}
                     placeholder='********'
                     className='block w-full p-3 border-2 border-purple rounded'
                   />
+                  <div className='mt-2'>
+                    <label className='inline-flex items-center'>
+                      <input
+                        type="checkbox"
+                        checked={mostrarSenha}
+                        onChange={() => setMostrarSenha(!mostrarSenha)}
+                        className='form-checkbox'
+                      />
+                      <span className='ml-2 text-sm'>Mostrar senha</span>
+                    </label>
+                  </div>
                 </div>
 
                 <button
@@ -137,4 +154,3 @@ export function Login() {
       </>
     );
 }
-
