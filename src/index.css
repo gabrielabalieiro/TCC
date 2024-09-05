@@ -132,3 +132,8 @@
   border-color: #000000;
 }
 
+.card {
+  background-color: #e0b3f3; /* Roxo bem claro */
+  border-radius: 8px; /* Opcional: para bordas arredondadas */
+  padding: 20px; /* Ajuste o padding conforme necessário */
+}

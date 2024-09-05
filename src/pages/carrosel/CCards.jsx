@@ -48,6 +48,7 @@ function CCards() {
           <a href="https://www.instagram.com/thii.lima_/" className="text-blue-500 hover hover:underline">Saiba mais</a>
         </div>
       </SwiperSlide>
+
     </Swiper>
   );
 };
