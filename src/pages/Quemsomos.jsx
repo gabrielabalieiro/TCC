@@ -11,7 +11,7 @@ export function Quemsomos() {
         <h1 className="font-titulo text-4xl font-semibold text-purple-700 mb-12 text-center">Desenvolvedores</h1>
         <Carossel />
       </div>
-      <Footer />
-    </div>
+   <Footer />
+   </div>
   );
 }

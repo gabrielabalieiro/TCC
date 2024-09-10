@@ -31,9 +31,9 @@ export function Home() {
               </button>
             </Link>
             <div className="flex justify-center mt-8 sm:mt-16 space-x-4  sm:mb-0">
-              <button>
+            <a href="https://www.facebook.com/profile.php?id=61565793206934"> 
                 <img src={IconX} alt="Ícone da rede social X" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110"/>                   
-              </button>
+              </a>
               <button>
                 <img src={IconInsta} alt="Ícone da rede social Instagram" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110" />
               </button>
