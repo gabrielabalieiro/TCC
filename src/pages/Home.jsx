@@ -34,12 +34,14 @@ export function Home() {
             <a href="https://www.facebook.com/profile.php?id=61565793206934"> 
                 <img src={IconX} alt="Ícone da rede social X" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110"/>                   
               </a>
-              <button>
+            
+                <a href="https://www.facebook.com/profile.php?id=61565793206934"> 
                 <img src={IconInsta} alt="Ícone da rede social Instagram" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110" />
-              </button>
-              <button>
+                </a>
+                
+                <a href="https://www.facebook.com/profile.php?id=61565793206934"> 
                 <img src={IconFace} alt="Ícone da rede social Facebook" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110" />
-              </button>
+                </a>
             </div>
           </div>
         </div>
