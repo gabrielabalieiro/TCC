@@ -9,7 +9,9 @@ export function Quemsomos() {
       <Nav />
       <div className=" justify-center mx-20 mt-16 mb-20">
         <h1 className="text-2xl md:text-4xl font-semibold text-purple mb-4  font-titulo text-center p-14">Desenvolvedores</h1>
-        <Carossel />
+        <div className="max-w-7xl mx-auto">
+          <Carossel />
+        </div>
       </div>
    <Footer />
    </div>
