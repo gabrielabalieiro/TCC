@@ -2,6 +2,7 @@ import imgRobo from '../assets/roboImg.svg'
 import IconX from '../assets/iconsRedes/xIconPreto.svg'
 import IconInsta from '../assets/iconsRedes/instaIconPreto.svg'
 import IconFace from '../assets/iconsRedes/faceIconPreto.svg'
+import IconThreads from '../assets/iconsRedes/iconLogins/iconThreads.svg'
 import Nav from './Nav'
 import Footer from "./Footer"
 import { Link } from 'react-router-dom'
@@ -32,7 +33,7 @@ export function Home() {
             </Link>
             <div className="flex justify-center mt-8 sm:mt-16 space-x-4  sm:mb-0">
             <a href="https://www.threads.net/@robokids.tcc?xmt=AQGzPkcJ2U2CTwo69k4b4YNCFv9boH0X4e5DcFtUbQzNjlw"> 
-                <img src={IconX} alt="Ícone da rede social X" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110"/>                   
+                <img src={IconThreads} alt="Ícone da rede social X" className="transition-transform duration-200 ease-in-out transform hover:scale-110"/>                   
               </a>
                 <a href="https://www.instagram.com/robokids.tcc?igsh=ejhjY2p2a2preGN3&utm_source=qr"> 
                 <img src={IconInsta} alt="Ícone da rede social Instagram" className="w-6 h-6 transition-transform duration-200 ease-in-out transform hover:scale-110" />

@@ -38,7 +38,7 @@ export function Login() {
             setTimeout(() => {
                 setLoading(false);
                 setMostrarMensagemSucesso(false);
-                navigate(to='/');
+                navigate('/');
             }, 3000);
         } else {
             alert('Por favor, preencha todos os campos.');
