@@ -10,7 +10,7 @@ export function Home() {
   return (
     <div className="overflow-x-hidden">
       <Nav />
-      <div className="flex items-center justify-center min-h-screen ml-64">
+      <div className="flex items-center justify-center min-h-screen">
         <div className="w-full flex flex-col sm:flex-row items-center mx-4 ">
           <img 
             src={imgRobo} 
