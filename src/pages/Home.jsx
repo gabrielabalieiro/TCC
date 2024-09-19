@@ -10,8 +10,8 @@ export function Home() {
   return (
     <div className="overflow-x-hidden">
       <Nav />
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="w-full flex flex-col sm:flex-row items-center mx-4">
+      <div className="flex items-center justify-center min-h-screen ml-64">
+        <div className="w-full flex flex-col sm:flex-row items-center mx-4 ">
           <img 
             src={imgRobo} 
             alt="Imagem de um Robô na cor branca" 

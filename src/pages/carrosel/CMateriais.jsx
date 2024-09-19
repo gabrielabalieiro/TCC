@@ -25,7 +25,7 @@ import Uno from '../../assets/carossselMateriais/CardUno.svg'
 export default function CMateriais() {
     return (
         <Swiper
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={2} 
           navigation={true} 
           autoplay={{
@@ -38,15 +38,15 @@ export default function CMateriais() {
           breakpoints={{
             320: {
               slidesPerView: 1,
-              spaceBetween: 10,
+              spaceBetween: 5,
             },
             480: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 10,
             },
             640: {
               slidesPerView: 3,
-              spaceBetween: 30,
+              spaceBetween: 20,
             }
           }}
           modules={[Autoplay, Pagination, Navigation]}

@@ -17,10 +17,10 @@ z-index: 10;
 }
 
 .swiper-button-next {
-right: 10px; /* Ajuste conforme necessário */
+right: 1px; /* Ajuste conforme necessário */
 }
 
 .swiper-button-prev {
-left: 10px; /* Ajuste conforme necessário */
+left: 1px; /* Ajuste conforme necessário */
 }
 
