@@ -8,6 +8,7 @@ import iconFace from '../assets/iconsRedes/iconLogins/iconFaceColorido.svg';
 import iconGoogle from '../assets/iconsRedes/iconLogins/iconGoogle.svg';
 import imgRobo from '../assets/roboImg.svg';
 import confetti from 'canvas-confetti'; 
+import Autenticacao from './Autenticacao';
 
 export function Singup() {
   const [popupType, setPopupType] = useState(null); 
@@ -182,10 +183,7 @@ export function Singup() {
                 Crie com...
               </h2>
               <div className='flex flex-col space-y-4'>
-                <button className='flex items-center justify-center bg-gray-100 border border-gray-300 text-gray-700 py-2 px-4 rounded'>
-                  <img src={popupType === 'google' ? iconGoogle : popupType === 'facebook' ? iconFace : iconApple} alt="Ícone" className='w-6 h-6 mr-2' />
-                  Continuar com {popupType === 'google' ? 'Google' : popupType === 'facebook' ? 'Facebook' : 'Apple'}
-                </button>
+              <Autenticacao/>
                 <p className='text-gray-500'>ou</p>
                 <form className='space-y-4'>
                   <input
