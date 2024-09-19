@@ -11,8 +11,8 @@ export function Bibliografias() {
       <section>
             <div className='p-4'>
             <div>
-                <h1 className="text-purple text-2xl sm:px-44 py-8 font-semibold text-center sm:text-start font-titulo md:text-4xl  mb-10">Bibliografias</h1>
-                <p className="font-paragrafo text-justify text-base sm:px-44 sm:py-38 sm:text-lg mb-5">A ciência tem mostrado o quão é importante a utilização de meios que modifiquem o ensino e a aprendizagem através do uso da tecnologia, instiguem e criem situações provocantes, possam cativar a atenção das crianças, tornando o processo de aprendizagem mais envolvente e interessante partindo desse princípio, surgiu a ideia do protótipo do Robô Kids.
+                <h1 className="text-purple text-2xl sm:px-44 py-6 font-semibold text-center sm:text-start font-titulo md:text-4xl  mb-10 ">Bibliografias</h1>
+                <p className="font-paragrafo text-justify text-base sm:px-40 sm:py-38 sm:text-lg mb-5 mr-14">A ciência tem mostrado o quão é importante a utilização de meios que modifiquem o ensino e a aprendizagem através do uso da tecnologia, instiguem e criem situações provocantes, possam cativar a atenção das crianças, tornando o processo de aprendizagem mais envolvente e interessante partindo desse princípio, surgiu a ideia do protótipo do Robô Kids.
                 <br/><br/>
                 A tecnologia é um meio de aprendizagem inovador e eficaz, na qual a criança,  além se de se divertir, está aprendendo e progredindo os seus conhecimentos.
                 <br/><br/>
@@ -22,10 +22,10 @@ export function Bibliografias() {
 
             <div className='flex items-center mt-12 mb-6'>
                     <h2 className='text-purple text-xl sm:text-2xl  font-titulo my-14 font-normal whitespace-nowrap sm:ml-[160px] ml-0'>Fontes -artigos científicos</h2>
-                    <hr className='w-[100px] border-purple  sm:w-[1000px] pr-[100-px] ml-12' />
+                    <hr className='w-[100px] border-purple  sm:w-[1110px] pr-[100-px] ml-12' />
             </div>
            
-           <div className='flex flex-col items-center px-44 mb-24 gap-3  sm:flex-row SM:spl-[330px] '>
+           <div className='flex flex-col items-center px-44 mb-24 gap-[105px]  sm:flex-row SM:spl-[330px] '>
               <div className="w-72 h-96 rounded-lg border-2 border-purple p-2 flex-col items-center flex">
                 <a href="https://sol.sbc.org.br/index.php/ctrle/article/view/25805" target="_blank" rel=" noopener noreferrer">
                 <img className="w-28 h-32 mb-8 translate-y-6 overflow-hidden flex flex-col items-center justify-between bg-white transition-opacity duration-300 hover:opacity-50" src={iconLivro} alt="Ícone do Livro"/>

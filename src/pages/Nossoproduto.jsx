@@ -111,7 +111,7 @@ export function Nossoproduto() {
               <div>
                 <div className='flex items-center'>
                   <h1 className='text-purple sm:text-3xl text-xl font-titulo my-14 font-normal mr-12'>Desenvolvimento</h1>
-                  <hr className='w-[850px] border-purple' />
+                  <hr className='w-[900px] border-purple' />
                 </div>
 
                 <div className='grid grid-cols-1 sm:grid-cols-5 gap-[100px]'> {}
@@ -148,7 +148,7 @@ export function Nossoproduto() {
                     </p>
                   </div>
                   <div className='w-full max-w-[600px] flex flex-col items-center'>
-                    <img src={imgPrimeiraFase} alt="arduino" className='sm:absolute sm:right-[120px] -translate-y-14 sm:w-72 sm:h-512 mt-4 w-72 h-auto ' />
+                    <img src={imgPrimeiraFase} alt="arduino" className='sm:absolute sm:right-[330px] -translate-y-14 sm:w-72 sm:h-512 mt-4 w-72 h-auto ' />
                     <p className="font-paragrafo text-base sm:text-lg text-justify">
                       {activePhase === 'Primeira Fase' && 'Na primeira fase, focamos na seleção e aquisição das peças e componentes essenciais para a construção do robô. Isso inclui a escolha de microcontroladores, sensores, motores, e outros periféricos. Também envolvemos a criação de protótipos iniciais para validar a compatibilidade dos componentes e garantir que atendam aos requisitos de funcionalidade e desempenho. A fase inicial é crucial para definir a base do projeto e assegurar que todos os elementos estejam alinhados com o objetivo final.'}
                       {activePhase === 'Segunda Fase' && 'Durante a segunda fase, trabalhamos na programação inicial do robô, o que envolve a escrita e teste do código fundamental que controla o funcionamento do robô. Configuramos os sensores e atuadores para garantir que eles sejam corretamente calibrados e integrados ao sistema. Além disso, implementamos e testamos as primeiras funcionalidades do robô para assegurar que ele responde adequadamente aos comandos e interage de forma eficaz com o ambiente.'}
