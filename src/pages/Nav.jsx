@@ -1,86 +1,67 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import logoSite from '../assets/logoSite.svg';
+import tresLinhas from '../assets/tresLinhas.svg';
 
-import { Link, useLocation } from 'react-router-dom'
-import logoSite from '../assets/logoSite.svg'
-import tresLinhas from '../assets/tresLinhas.svg'
-
-export default function Nav(){
-    const[napagina, setNapagina] = useState(false)
+export default function Nav() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const location = useLocation();
 
-  return (
-    <div>
+    const toggleMenu = () => {
+        setIsMenuOpen(prev => !prev);
+    };
 
-        <div className="bg-white p-7 " >
-            <div className= "max-w-8xl mx-auto lg:block hidden"> 
-            <div className="flex justify-between items-center" >   
-            <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto  my-2 " />
-        
-            <ul className= "text-sm flex space-x-9 " >
-                    <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:font-semibold '}>
-                        <button className='hover:underline'>
-                            <Link to={"/"}>Home</Link>
-                        </button>
-                    </li>
-                    <li className={location.pathname === "/produto" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button className='hover:underline'>
-                            <Link to={"/produto"}>Produto</Link>
-                        </button>
-                    </li>
-                    <li className={location.pathname === "/materiais" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button className='hover:underline'>
-                            <Link to={"/materiais"}>Materias</Link>
-                        </button>
-                    </li >
-                    <li className={location.pathname === "/bibliografias" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button className='hover:underline'>
-                            <Link to={"/bibliografias"}>Bibliografias</Link>
-                        </button>
-                    </li>
-                    <li className={location.pathname === "/quemsomos" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}>
-                        <button className='hover:underline'>
-                            <Link to={"/quemsomos"}>Quem somos?</Link>
-                        </button>
-                    </li>
-
-                    <li className="text-purple font-semibold hover:font-semibold   border-solid border border-purple border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5">
-                        <button className='hover:underline'>
-                        <Link to={"/login"}>Login</Link>
-                        </button>
-                    </li>
-                    <li className="text-white  font-normal hover:font-semibold border-solid border-2 bg-purple border-purple transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple  rounded px-5 ">
-                        <button className='hover:underline'>
-                            <Link to={"/singup"}>Sing Up</Link>
-                        </button>
-                    </li>
-                </ul> 
-                
+    return (
+        <div>
+            <div className="bg-white p-5 hidden md:block">
+                <div className="max-w-8xl mx-auto flex justify-between items-center">
+                    <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto" />
+                    <ul className="text-sm flex space-x-12">
+                        {['/', '/produto', '/materiais', '/bibliografias', '/quemsomos'].map((path, index) => (
+                            <li key={index} className={location.pathname === path ? 'text-purple font-bold underline decoration-purple' : 'hover:underline'}>
+                                <Link to={path}>{path === '/' ? 'Home' : path.slice(1).charAt(0).toUpperCase() + path.slice(2)}</Link>
+                            </li>
+                        ))}
+                        <li>
+                            <Link to={"/login"} className="border border-purple rounded px-4 py-1.5 hover:bg-purple hover:text-white transition duration-300">Login</Link>
+                        </li>
+                        <li>
+                            <Link to={"/singup"} className="bg-purple text-white rounded px-4 py-1.5 hover:bg-white hover:text-purple transition duration-300">Sign Up</Link>
+                        </li>
+                    </ul>
                 </div>
-                <hr className="'w-[980px] border-purple"/>
+                <hr className="border-purple my-4" />
             </div>
-        </div>
-
-        <div className='md:hidden '>
-            <div className='flex justify-between  '>
-                <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto my-2 ml-4" />
-                <ul className='group'>
-                    <button className='relative flex '>
-                        <img src={tresLinhas} alt=""/>
-                        <div className='hidden group-hover:block w-fit list-none rounded absolute right-0 bg-grey p-4'>
-                            <ul className='gap-8'>
-                                <li className={location.pathname === "/" ? 'text-purple font-bold underline decoration-purple' : ' text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/"}>Home</Link></li>
-                                <li className={location.pathname === "/produto" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/produto"}>Produto</Link></li>
-                                <li className={location.pathname === "/materiais" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/materiais"}>Materiais</Link></li>
-                                <li className={location.pathname === "/bibliografias" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/bibliografias"}>Bibliografias</Link></li>
-                                <li className={location.pathname === "/quemsomos" ? 'text-purple font-bold underline decoration-purple' : 'text-black-500 no-underline font-normal hover:text-purple hover:underline hover:font-semibold'}><Link to={"/quemsomos"}>Quem somos?</Link></li>
-                                <button className="text-purple-500 font-normal hover:font-semibold   border-solid border border-purple border-transparent transition ease-in-out duration-150 hover:bg-purple hover:text-white hover:border-purple  rounded px-5"><Link to={"/login"}>Login</Link></button>
-                                <button className="text-white  font-normal hover:font-semibold border-solid border-2 bg-purple border-purple transition ease-in-out duration-150 hover:bg-white hover:text-purple hover:border-purple  rounded px-5 "><Link to={"/singup"}>Sing Up</Link></button>
-                            </ul>
-                        </div>
+            <div className="md:hidden">
+                <div className="flex justify-between items-center p-4">
+                    <img src={logoSite} alt="Logo do site escrito Robô Kids" className="w-auto" />
+                    <button onClick={toggleMenu} className="focus:outline-none">
+                        {isMenuOpen ? (
+                            <span className="text-xl">&times;</span> 
+                        ) : (
+                            <img src={tresLinhas} alt="Menu" />
+                        )}
                     </button>
-                </ul>
+                </div>
+                <div className={`overflow-hidden transition-all duration-300 ${isMenuOpen ? 'max-h-screen' : 'max-h-0'}`}>
+                    <div className={`bg-purple text-white p-4 transition-transform transform ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+                        <ul className="flex flex-col space-y-8 mt-4">
+                            {['/', '/produto', '/materiais', '/bibliografias', '/quemsomos'].map((path, index) => (
+                                <li key={index} className={location.pathname === path ? 'font-bold underline decoration-white text-white' : 'hover:underline'}>
+                                    <Link to={path} onClick={toggleMenu}>{path === '/' ? 'Home' : path.slice(1).charAt(0).toUpperCase() + path.slice(2)}</Link>
+                                </li>
+                            ))}
+                            <li>
+                                <Link to={"/login"} onClick={toggleMenu} className="border border-white rounded px-4 py-1.5 hover:bg-white hover:text-purple transition duration-300">Login</Link>
+                            </li>
+                            <li>
+                                <Link to={"/singup"} onClick={toggleMenu} className="bg-white text-purple rounded px-4 py-1.5 hover:bg-purple hover:text-white transition duration-300 border-purple">Sign Up</Link>
+                            </li>
+                        </ul>
+                        <div className="h-16" /> 
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    )
+    );
 }

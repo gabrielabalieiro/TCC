@@ -51,7 +51,7 @@
     animation: 
       typing 2s steps(20, end), 
       blink 0.75s step-end infinite,
-      cursor-disappear 2s steps(20, end) 2s forwards; /* Desaparece após a animação de digitação */
+      cursor-disappear 2s steps(20, end) 2s forwards; 
     font-family: 'FontTitulo', sans-serif;
   }
   
@@ -101,7 +101,6 @@
 }
 
 
-/* Popup geral */
 .popup {
   width: 90%;
   max-width: 400px;
@@ -119,7 +118,6 @@
   color: #333;
 }
 
-/* Borda dos popups */
 .border-google {
   border-color: #ff9946;
 }
@@ -133,7 +131,12 @@
 }
 
 .card {
-  background-color: #e0b3f3; /* Roxo bem claro */
-  border-radius: 8px; /* Opcional: para bordas arredondadas */
-  padding: 20px; /* Ajuste o padding conforme necessário */
+  background-color: #e0b3f3; 
+  border-radius: 8px; 
+  padding: 20px; 
+}
+
+
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
 }

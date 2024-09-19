@@ -13,8 +13,8 @@ function CCards() {
   return (
     <Swiper
       modules={[Autoplay, Pagination, Navigation]}
-      spaceBetween={20}  // Espaçamento entre slides
-      slidesPerView={3}  // Número de slides visíveis
+      spaceBetween={20} 
+      slidesPerView={3}  
       navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 2000 }}
@@ -39,7 +39,7 @@ function CCards() {
           <img 
             src={Fotobia} 
             alt="Beatriz Gonçalves" 
-            className="w-40 h-40 object-contain  rounded-full mb-4 border-4 border-purple" 
+            className="w-40 h-40 object-contain  rounded-full mb-4 " 
           />
           <h2 className="text-xl text-purple mb-2 text-center font-bold">Beatriz Gonçalves</h2>
           <p className="text-gray mb-4 text-center font-paragrafo">O que fez...</p>
@@ -56,7 +56,7 @@ function CCards() {
           <img 
             src={Fotole} 
             alt="Letícia Lopes" 
-            className="w-40 h-40 object-contain rounded-full mb-4 border-4 border-purple" 
+            className="w-40 h-40 object-contain rounded-full mb-4 " 
           />
           <h2 className="text-xl font-bold mb-2 text-center text-purple">Letícia Lopes</h2>
           <p className="text-gray mb-4 text-center font-paragrafo">O que fez...</p>
@@ -73,7 +73,7 @@ function CCards() {
           <img 
             src={Fotogabi} 
             alt="Gabriela Balieiro" 
-            className="w-40 h-40 object-contain rounded-full mb-4 border-4 border-purple" 
+            className="w-40 h-40 object-contain rounded-full mb-4 " 
           />
           <h2 className="text-xl mb-2 text-center text-purple font-bold">Gabriela Balieiro</h2>
           <p className="text-gray mb-4 text-center font-paragrafo">O que fez...</p>
@@ -90,7 +90,7 @@ function CCards() {
           <img 
             src={Fotothigas} 
             alt="Thiago Lima" 
-            className="w-40 h-40 object-contain rounded-full mb-4 border-4 border-purple"
+            className="w-40 h-40 object-contain rounded-full mb-4 "
           />
           <h2 className="text-xl mb-2 text-center text-purple font-bold">Thiago Lima</h2>
           <p className="text-gray mb-4 text-center font-paragrafo">O que fez...</p>

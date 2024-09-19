@@ -23,7 +23,7 @@ export default function CProduto() {
           className="mySwiper"
         >
           <SwiperSlide>
-          <img src="https://files.oaiusercontent.com/file-gGQDvfekUlHZUitT3dExOB4P?se=2024-09-17T16%3A33%3A25Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D3dbb3e49-a218-4eb1-9282-0dbd824a02e5.webp&sig=CP8pjb98JYadJ4DGRQGBIarlhHbBw1ZRZTEISjcLuRU%3D" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl sm:ml-24 ml-28" />
+          <img src="https://s2-redeglobo.glbimg.com/F3QNY5MHcKKry3bzLWFx71pBh8Y=/0x0:1600x2162/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2020/C/6/uPZBtBTTKTWAM1Rc8IFQ/infografico-robotica-e-educacao.png" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl sm:ml-24 ml-28" />
           </SwiperSlide>
           <SwiperSlide>
           <img src="https://www.japanhousesp.com.br/sites/japanhouse.com.saopaulo/files/2021-01/robo_1080_port.png" alt="" className=" flex items-center w-[220px]  h-[300px]  sm:w-[340px] sm:h-[450px] rounded-lg shadow-2xl sm:ml-24 ml-28" />
